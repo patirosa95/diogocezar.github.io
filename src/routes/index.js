@@ -12,6 +12,7 @@ import TeachingTalks from '../pages/TeachingTalks'
 import Settings from '../styles/settings'
 import Generic from '../styles/generic'
 import Base from '../styles/base'
+import Fonts from '../styles/fonts'
 
 class Router extends Component {
   render() {
@@ -27,6 +28,7 @@ class Router extends Component {
               <Route exact path="/teaching-talks" component={TeachingTalks} />
             </Switch>
             <Settings />
+            <Fonts />
             <Generic />
             <Base />
           </Fragment>

@@ -9,13 +9,12 @@ const Generic = createGlobalStyle`
 	}
 	html,
 	body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'AGaramondPro';
     font-size: 14px;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: var(--color-purple);
+    color: var(--color-orange);
 	}
 `
 
