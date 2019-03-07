@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { HashRouter, Switch, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
 import Store from '../store'
 
@@ -17,7 +17,7 @@ class Router extends Component {
   render() {
     return (
       <Provider store={Store}>
-        <BrowserRouter>
+        <HashRouter>
           <Fragment>
             <Switch>
               <Route exact path="/" component={Main} />
@@ -30,7 +30,7 @@ class Router extends Component {
             <Generic />
             <Base />
           </Fragment>
-        </BrowserRouter>
+        </HashRouter>
       </Provider>
     )
   }
