@@ -6,7 +6,7 @@ class TeachingTalks extends Component {
   render() {
     return (
       <Fragment>
-        <h1>TeachingTalks</h1>
+        <h1>Teaching Talks</h1>
         <Button>Test Button</Button>
       </Fragment>
     )
