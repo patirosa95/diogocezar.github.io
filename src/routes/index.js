@@ -1,7 +1,9 @@
 import React, { Component, Fragment } from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
+import ReallySmoothScrooll from 'really-smooth-scroll'
 import Store from '../store'
+
 
 import About from '../pages/About'
 import Contact from '../pages/Contact'
@@ -13,6 +15,8 @@ import Settings from '../styles/settings'
 import Generic from '../styles/generic'
 import Base from '../styles/base'
 import Fonts from '../styles/fonts'
+
+ReallySmoothScrooll.shim()
 
 class Router extends Component {
   render() {
