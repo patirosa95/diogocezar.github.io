@@ -3,8 +3,7 @@ import StyledQuotedParagraph from './styles'
 
 const QuotedParagraph = ({ first, children }) => (
   <StyledQuotedParagraph>
-    <span>{first} — </span>
-    {children}
+    <span>{first} — </span>“{children}”
   </StyledQuotedParagraph>
 )
 
