@@ -4,7 +4,6 @@ const StyledPage = styled.div`
   background-color: ${({ color }) => `var(--color-${color})` || 'var(--color-purple)'}!important;
   position: relative;
   float: left;
-  height: 100%;
   width: 100%;
 `
 
@@ -12,7 +11,7 @@ const StyledSection = styled.section`
   position: relative;
   float: left;
   width: 100%;
-  padding-bottom: 60px;
+  padding-bottom: var(--size-s4);
 `
 
 const StyledWrapper = styled.div`
@@ -20,25 +19,25 @@ const StyledWrapper = styled.div`
   float: left;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 240px;
-  padding-right: 80px;
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-left: var(--size-s7);
+  padding-right: var(--size-s5);
+  padding-bottom: var(--size-s5);
+  padding-top: var(--size-s5);
   @media (max-width: 1800px) {
-    padding-bottom: 80px;
-    padding-top: 80px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-bottom: var(--size-s5);
+    padding-top: var(--size-s5);
+    padding-left: var(--size-s6);
+    padding-right: var(--size-s6);
   }
   @media (max-width: 1180px) {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: var(--size-s4);
+    padding-right: var(--size-s4);
   }
   @media (max-width: 700px) {
-    padding-bottom: 40px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-bottom: var(--size-s3);
+    padding-top: var(--size-s1);
+    padding-left: var(--size-s1);
+    padding-right: var(--size-s1);
   }
 `
 

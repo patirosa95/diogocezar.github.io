@@ -8,9 +8,18 @@ const QuotedMain = ({ author, children }) => (
   </StyledQuotedMain>
 )
 
-const QuotedParagraph = ({ first, children }) => (
+const QuotedParagraph = ({ first, children, hasQuotedMarks = true }) => (
   <StyledQuotedParagraph>
-    <span>{first} — </span>“{children}”
+    {(hasQuotedMarks && (
+      <p>
+        <span>{first} — </span>“{children}”
+      </p>
+    )) || (
+      <p>
+        <span>{first} — </span>
+        {children}
+      </p>
+    )}
   </StyledQuotedParagraph>
 )
 

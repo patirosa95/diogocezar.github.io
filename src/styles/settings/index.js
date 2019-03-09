@@ -8,6 +8,14 @@ const Settings = createGlobalStyle`
     --color-purple-light: #5E42A6;
     --color-purple: #493382;
     --color-orange: #D8473A;
+
+    --size-s1: 15px;
+    --size-s2: 20px;
+    --size-s3: 40px;
+    --size-s4: 60px;
+    --size-s5: 80px;
+    --size-s6: 150px;
+    --size-s7: 240px;
   }
 `
 

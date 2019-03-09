@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
-const StyledContentIndex = styled.header`
+const StyledSeparator = styled.header`
   width: 100%;
-  border-bottom: 1px solid rgba(153, 153, 153, 0.36);
+  border-bottom: 1px solid
+    ${({ type }) => (type === 'orange' ? 'rgba(49, 36, 80, 0.36)' : 'rgba(153, 153, 153, 0.36)')};
   padding-bottom: 5px;
   margin-bottom: 100px;
   h2 {
@@ -16,10 +17,10 @@ const StyledContentIndex = styled.header`
       font-weight: bold;
       font-size: 2.5rem;
       font-style: normal;
-      color: var(--color-orange) !important;
+      color: ${({ type }) => (type === 'orange' ? 'var(--color-purple-dark);' : 'var(--color-orange);')}!important;
       margin-right: 10px;
     }
   }
 `
 
-export default StyledContentIndex
+export default StyledSeparator

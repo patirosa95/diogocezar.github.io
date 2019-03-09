@@ -8,7 +8,7 @@ const StyledQuotedMain = styled.blockquote`
     font-weight: normal;
     font-size: 1.6rem;
     line-height: 2.7rem;
-    margin-bottom: 30px;
+    margin-bottom: var(--size-s3);
   }
   span {
     font-family: 'AkzidenzGroteskBE';
@@ -25,7 +25,7 @@ const StyledQuotedParagraph = styled.blockquote`
   font-weight: normal;
   font-size: 1.6rem;
   line-height: 2.7rem;
-  margin-bottom: 80px;
+  margin-bottom: var(--size-s4);
   span {
     font-family: 'AkzidenzGroteskBE';
     font-weight: bold;

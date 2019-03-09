@@ -12,7 +12,7 @@ const StyledListContainer = styled.ul`
 const StyledListItem = styled.li`
   list-style: none;
   border-bottom: 1px solid rgba(153, 153, 153, 0.36);
-  margin-bottom: 20px;
+  margin-bottom: var(--size-s2);
   &:last-child {
     border-bottom: none;
   }

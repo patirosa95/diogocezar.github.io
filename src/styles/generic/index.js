@@ -8,9 +8,6 @@ const Generic = createGlobalStyle`
     box-sizing: border-box;
 	}
 	html,
-  #root{
-    height: 100%;
-  }
 	body {
     font-family: 'AGaramondPro';
     font-size: 14px;

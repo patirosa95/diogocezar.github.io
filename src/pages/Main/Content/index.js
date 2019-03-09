@@ -5,12 +5,12 @@ import { Section } from '../../../components/Containers'
 import { RightContent } from '../../../components/AlignContent'
 import { ListContainer, ListItem } from '../../../components/ListContainer'
 
-import ContentIndex from '../../../objects/ContentIndex'
+import Separator from '../../../objects/Separator'
 import { ListTitle, ListSubTitle } from '../../../objects/ListContent'
 
 const Content = () => (
   <Section>
-    <ContentIndex number="02" title="Content" />
+    <Separator number="02" title="Content" />
     <RightContent>
       <ListContainer>
         <ListItem>

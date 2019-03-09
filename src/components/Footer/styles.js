@@ -4,30 +4,30 @@ const StyledFooter = styled.footer`
   position: relative;
   float: left;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: var(--size-s2);
   background-color: var(--color-purple-dark);
   margin-left: auto;
   margin-right: auto;
-  padding-left: 240px;
-  padding-right: 80px;
-  padding-bottom: 20px;
-  padding-top: 60px;
+  padding-left: var(--size-s7);
+  padding-right: var(--size-s5);
+  padding-bottom: var(--size-s2);
+  padding-top: var(--size-s4);
   display: flex;
   @media (max-width: 1800px) {
-    padding-bottom: 80px;
-    padding-top: 80px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-bottom: var(--size-s5);
+    padding-top: var(--size-s5);
+    padding-left: var(--size-s6);
+    padding-right: var(--size-s6);
   }
   @media (max-width: 1180px) {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: var(--size-s4);
+    padding-right: var(--size-s4);
   }
   @media (max-width: 700px) {
-    padding-bottom: 40px;
-    padding-top: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-bottom: var(--size-s3);
+    padding-top: var(--size-s1);
+    padding-left: var(--size-s1);
+    padding-right: var(--size-s1);
   }
 `
 
@@ -51,9 +51,9 @@ const StyledContentFooter = styled.p`
   font-family: 'AGaramondPro';
   font-style: normal;
   font-weight: normal;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   line-height: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: var(--size-s3);
   text-align: ${({ align }) => align || 'center'};
   padding: ${({ align }) => {
     switch (align) {

@@ -1,7 +1,7 @@
 import React from 'react'
-import { StyledTitleMain, StyledSubTitleMain } from './styles'
+import { StyledTitle, StyledSubTitle } from './styles'
 
-const TitleMain = props => <StyledTitleMain {...props}>{props.children}</StyledTitleMain>
-const SubTitleMain = props => <StyledSubTitleMain {...props}>{props.children}</StyledSubTitleMain>
+const Title = props => <StyledTitle {...props}>{props.children}</StyledTitle>
+const SubTitle = props => <StyledSubTitle {...props}>{props.children}</StyledSubTitle>
 
-export { TitleMain, SubTitleMain }
+export { Title, SubTitle }

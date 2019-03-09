@@ -3,12 +3,12 @@ import React from 'react'
 import { Section } from '../../../components/Containers'
 import { RightContent } from '../../../components/AlignContent'
 
-import ContentIndex from '../../../objects/ContentIndex'
+import Separator from '../../../objects/Separator'
 import { QuotedMain } from '../../../objects/Quotes'
 
 const Conclusion = () => (
   <Section>
-    <ContentIndex number="03" title="Conclusion" />
+    <Separator number="03" title="Conclusion" />
     <RightContent>
       <QuotedMain author="Steve Jobs">
         Your work is going to fill a large part of your life, and the only way to be truly satisfied

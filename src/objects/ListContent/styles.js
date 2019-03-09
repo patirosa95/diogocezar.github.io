@@ -13,7 +13,7 @@ const StyledListTitle = styled.h3`
 const StyledListSubTitle = styled.p`
   color: var(--color-white);
   font-size: 1.6rem;
-  padding-bottom: 15px;
+  padding-bottom: var(--size-s1);
 `
 
 export { StyledListTitle, StyledListSubTitle }
