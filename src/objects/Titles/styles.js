@@ -3,10 +3,10 @@ import styled from 'styled-components'
 const StyledTitle = styled.h2`
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
-  font-size: ${({ type }) => (type === 'internal' ? '6rem' : '3.6rem')};
+  font-size: ${({ type }) => (type === 'internal' ? '6rem' : '3.9rem')};
   text-transform: ${({ type }) => (type === 'internal' ? 'normal' : 'uppercase')};
   color: ${({ color }) => (color ? `var(--color-${color})` : 'var(--color-orange)')};
-  line-height: ${({ type }) => (type === 'internal' ? '6.5rem' : '4rem')};
+  line-height: ${({ type }) => (type === 'internal' ? '6.5rem' : '4.6rem')};
   margin-bottom: ${({ type }) => (type === 'internal' ? '5rem' : '1rem')};
 `
 

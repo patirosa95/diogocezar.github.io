@@ -8,8 +8,8 @@ const StyledFooter = styled.footer`
   background-color: var(--color-purple-dark);
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--size-s7);
-  padding-right: var(--size-s5);
+  padding-left: var(--size-s6);
+  padding-right: var(--size-s6);
   padding-bottom: var(--size-s2);
   padding-top: var(--size-s4);
   display: flex;

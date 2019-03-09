@@ -19,8 +19,8 @@ const StyledWrapper = styled.div`
   float: left;
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--size-s7);
-  padding-right: var(--size-s5);
+  padding-left: var(--size-s6);
+  padding-right: var(--size-s6);
   padding-bottom: var(--size-s5);
   padding-top: var(--size-s5);
   @media (max-width: 1800px) {
