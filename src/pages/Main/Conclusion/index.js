@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Section from '../../../components/Section'
-import RightContent from '../../../components/RightContent'
+import { Section } from '../../../components/Containers'
+import { RightContent } from '../../../components/AlignContent'
 
 import ContentIndex from '../../../objects/ContentIndex'
-import QuotedMain from '../../../objects/QuotedMain'
+import { QuotedMain } from '../../../objects/Quotes'
 
 const Conclusion = () => (
   <Section>

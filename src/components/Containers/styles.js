@@ -1,5 +1,20 @@
 import styled from 'styled-components'
 
+const StyledPage = styled.div`
+  background-color: ${({ color }) => `var(--color-${color})` || 'var(--color-purple)'}!important;
+  position: relative;
+  float: left;
+  height: 100%;
+  width: 100%;
+`
+
+const StyledSection = styled.section`
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 60px;
+`
+
 const StyledWrapper = styled.div`
   position: relative;
   float: left;
@@ -27,4 +42,4 @@ const StyledWrapper = styled.div`
   }
 `
 
-export default StyledWrapper
+export { StyledPage, StyledSection, StyledWrapper }

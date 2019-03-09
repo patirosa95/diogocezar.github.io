@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import Page from '../../components/Page'
-import Wrapper from '../../components/Wrapper'
+import { Page, Wrapper } from '../../components/Containers'
 
 import Introduction from './Introduction'
 import Content from './Content'
@@ -22,7 +21,14 @@ class Main extends Component {
           <ColumnFooter>
             <TitleFooter align="left">SOURCE CODE</TitleFooter>
             <ContentFooter align="left">
-              This website is open source and you can download <a href="#">right here.</a>
+              This website is open source and you can download{' '}
+              <a
+                href="http://www.github.com/diogocezar/diogocezar.github.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                right here.
+              </a>
             </ContentFooter>
           </ColumnFooter>
           <ColumnFooter>

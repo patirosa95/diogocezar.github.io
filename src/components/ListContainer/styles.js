@@ -1,5 +1,14 @@
 import styled from 'styled-components'
 
+const StyledListContainer = styled.ul`
+  margin: 0;
+  padding: 0;
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+`
+
 const StyledListItem = styled.li`
   list-style: none;
   border-bottom: 1px solid rgba(153, 153, 153, 0.36);
@@ -12,4 +21,4 @@ const StyledListItem = styled.li`
   }
 `
 
-export default StyledListItem
+export { StyledListContainer, StyledListItem }

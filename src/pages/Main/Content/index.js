@@ -1,20 +1,18 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import Section from '../../../components/Section'
-import ContentIndex from '../../../objects/ContentIndex'
-import RightContent from '../../../components/RightContent'
-import List from '../../../components/List'
-import ListItem from '../../../components/ListItem'
+import { Section } from '../../../components/Containers'
+import { RightContent } from '../../../components/AlignContent'
+import { ListContainer, ListItem } from '../../../components/ListContainer'
 
-import ListTitle from '../../../objects/ListTitle'
-import ListSubTitle from '../../../objects/ListSubTitle'
+import ContentIndex from '../../../objects/ContentIndex'
+import { ListTitle, ListSubTitle } from '../../../objects/ListContent'
 
 const Content = () => (
   <Section>
     <ContentIndex number="02" title="Content" />
     <RightContent>
-      <List>
+      <ListContainer>
         <ListItem>
           <Link to="/about">
             <ListTitle>ABOUT ME</ListTitle>
@@ -42,7 +40,7 @@ const Content = () => (
             <ListSubTitle>Let’s keep in touch thought social media networks.</ListSubTitle>
           </Link>
         </ListItem>
-      </List>
+      </ListContainer>
     </RightContent>
   </Section>
 )

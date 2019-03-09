@@ -10,4 +10,10 @@ const StyledListTitle = styled.h3`
   text-decoration: none !important;
 `
 
-export default StyledListTitle
+const StyledListSubTitle = styled.p`
+  color: var(--color-white);
+  font-size: 1.6rem;
+  padding-bottom: 15px;
+`
+
+export { StyledListTitle, StyledListSubTitle }

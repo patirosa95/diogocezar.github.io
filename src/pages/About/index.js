@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 
-import Page from '../../components/Page'
-import Wrapper from '../../components/Wrapper'
+import { Page, Wrapper } from '../../components/Containers'
 
 class About extends Component {
   render() {

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledCircleImage = styled.img`
+const StyledImage = styled.img`
   border-radius: 50%;
   height: 250px;
   width: 250px;
@@ -11,4 +11,4 @@ const StyledCircleImage = styled.img`
   margin-bottom: 100px;
 `
 
-export default StyledCircleImage
+export default StyledImage
