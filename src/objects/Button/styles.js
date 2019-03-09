@@ -10,7 +10,7 @@ const StyledButton = styled.button`
   margin-right: 15px;
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1rem;
   line-height: 1rem;
   padding-top: 13px;
   cursor: pointer;

@@ -4,7 +4,7 @@ const StyledContentIndex = styled.header`
   width: 100%;
   border-bottom: 1px solid rgba(153, 153, 153, 0.36);
   padding-bottom: 5px;
-  margin-bottom: 160px;
+  margin-bottom: 100px;
   h2 {
     color: var(--color-white);
     font-family: 'AGaramondPro';

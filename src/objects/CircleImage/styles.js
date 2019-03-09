@@ -7,7 +7,7 @@ const StyledCircleImage = styled.img`
   border: 4px solid var(--color-white);
   margin: 0 auto;
   display: block;
-  margin-top: -60px;
+  margin-top: -20px;
   margin-bottom: 100px;
 `
 

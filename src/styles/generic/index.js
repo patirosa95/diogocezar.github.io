@@ -8,6 +8,9 @@ const Generic = createGlobalStyle`
     box-sizing: border-box;
 	}
 	html,
+  #root{
+    height: 100%;
+  }
 	body {
     font-family: 'AGaramondPro';
     font-size: 14px;
@@ -15,6 +18,7 @@ const Generic = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     background-color: var(--color-purple);
     color: var(--color-orange);
+    height: 100%;
 	}
 `
 

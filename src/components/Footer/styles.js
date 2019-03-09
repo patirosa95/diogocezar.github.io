@@ -1,8 +1,11 @@
 import styled from 'styled-components'
 
-const StyledWrapper = styled.div`
+const StyledSection = styled.section`
   position: relative;
   float: left;
+  width: 100%;
+  padding-bottom: 20px;
+  background-color: var(--color-purple-dark);
   margin-left: auto;
   margin-right: auto;
   padding-left: 240px;
@@ -27,4 +30,4 @@ const StyledWrapper = styled.div`
   }
 `
 
-export default StyledWrapper
+export default StyledSection

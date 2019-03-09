@@ -3,9 +3,9 @@ import styled from 'styled-components'
 const StyledSubTitle = styled.h2`
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.7rem;
   text-transform: uppercase;
-  line-height: 3.3rem;
+  line-height: 3rem;
   color: var(--color-purple-dark);
   margin-bottom: 80px;
 `

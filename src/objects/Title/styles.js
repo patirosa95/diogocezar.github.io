@@ -3,9 +3,9 @@ import styled from 'styled-components'
 const StyledTitle = styled.h2`
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3.6rem;
   text-transform: uppercase;
-  line-height: 4.3rem;
+  line-height: 4rem;
   margin-bottom: 1rem;
 `
 
