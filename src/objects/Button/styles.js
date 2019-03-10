@@ -14,6 +14,7 @@ const StyledButton = styled.button`
   line-height: 1rem;
   padding-top: 13px;
   cursor: pointer;
+  margin-bottom: var(--size-s1);
 `
 
 export default StyledButton

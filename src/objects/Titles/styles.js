@@ -16,7 +16,7 @@ const StyledSubTitle = styled.h3`
   font-size: 2.7rem;
   text-transform: uppercase;
   line-height: 3rem;
-  color: var(--color-purple-dark);
+  color: ${({ color }) => (color ? `var(--color-${color})` : 'var(--color-orange)')};
   margin-bottom: ${({ type }) => (type === 'internal' ? 'var(--size-s3)' : 'var(--size-s5)')};
 `
 

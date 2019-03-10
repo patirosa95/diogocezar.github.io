@@ -32,12 +32,14 @@ const AboutMe = () => (
         less you know”. At master degree, I developed an smart scheduling system using planning, to
         process big data volumes at distributed environment.
       </Paragraph>
-      <Paragraph hightLight={true}>
+      <Paragraph font="sans-serif" bold={true}>
         In parallel with my academic carrier, could be involved with web development for many
         publicity agencies. Where I could develop projects for many Brasilian national artists.
       </Paragraph>
       <Paragraph>Nowadays, I work as senior developer, teacher and talker.</Paragraph>
-      <SubTitle type="internal">Profession</SubTitle>
+      <SubTitle type="internal" color="purple-dark">
+        Profession
+      </SubTitle>
       <Paragraph>
         Technological stuffs always been present in my life. Still remember my old 486, ant it
         causes me some nostalgia and worry, because I realize that im getting old. Always encouraged

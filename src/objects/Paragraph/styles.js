@@ -2,11 +2,11 @@ import styled from 'styled-components'
 
 const StyledParagraph = styled.p`
   color: var(--color-white);
-  font-family: ${({ hightLight }) => (hightLight ? 'AkzidenzGroteskBE' : 'AGaramondPro')}!important;
+  font-family: ${({ font }) => (font !== 'serif' ? 'AkzidenzGroteskBE' : 'AGaramondPro')}!important;
   font-style: normal;
-  font-weight: ${({ hightLight }) => (hightLight ? 'bold' : 'normal')}!important;
-  font-size: 1.6rem;
-  line-height: 2.7rem;
+  font-weight: ${({ bold }) => (bold ? 'bold' : 'normal')}!important;
+  font-size: ${({ size }) => (size === 'small' ? '1rem' : '1.6rem')}!important;
+  line-height: ${({ size }) => (size === 'small' ? '2rem' : '2.7rem')}!important;
   margin-bottom: var(--size-s4);
 `
 

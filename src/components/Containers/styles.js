@@ -16,7 +16,6 @@ const StyledSection = styled.section`
 
 const StyledWrapper = styled.div`
   position: relative;
-  float: left;
   margin-left: auto;
   margin-right: auto;
   padding-left: var(--size-s6);

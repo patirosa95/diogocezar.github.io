@@ -10,7 +10,9 @@ const StyledRightContent = styled.div`
   width: 66.13902%;
   float: right;
   margin-right: 0;
-  padding-right: var(--size-s6);
+  p {
+    padding-right: var(--size-s6);
+  }
 `
 
 export { StyledLeftContent, StyledRightContent }
