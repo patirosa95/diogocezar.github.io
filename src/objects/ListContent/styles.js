@@ -8,11 +8,12 @@ const StyledListTitle = styled.h3`
   line-height: 3rem;
   margin-bottom: 0.5rem;
   text-decoration: none !important;
+  color: ${({ type }) => (type === 'orange' ? 'var(--color-purple-dark)' : 'var(--color-orange)')};
 `
 
 const StyledListSubTitle = styled.p`
   color: var(--color-white);
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   padding-bottom: var(--size-s1);
 `
 

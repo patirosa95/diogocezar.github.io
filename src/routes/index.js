@@ -1,6 +1,7 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 import { HashRouter, Switch, Route } from 'react-router-dom'
 import { Provider } from 'react-redux'
+
 import Store from '../store'
 
 import About from '../pages/About'
@@ -14,12 +15,14 @@ import Generic from '../styles/generic'
 import Base from '../styles/base'
 import Fonts from '../styles/fonts'
 
+import ScrollToTop from '../components/ScrollToTop'
+
 class Router extends Component {
   render() {
     return (
       <Provider store={Store}>
         <HashRouter>
-          <Fragment>
+          <ScrollToTop>
             <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/about" component={About} />
@@ -31,7 +34,7 @@ class Router extends Component {
             <Fonts />
             <Generic />
             <Base />
-          </Fragment>
+          </ScrollToTop>
         </HashRouter>
       </Provider>
     )

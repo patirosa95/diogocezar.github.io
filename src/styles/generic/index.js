@@ -7,7 +7,9 @@ const Generic = createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
 	}
-	html,
+	html{
+    scroll-behavior: smooth;
+  }
 	body {
     font-family: 'AGaramondPro';
     font-size: 14px;
