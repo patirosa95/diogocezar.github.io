@@ -6,7 +6,7 @@ import { RightContent } from '../../../components/AlignContent'
 import { ListContainer, ListItem } from '../../../components/ListContainer'
 
 import Separator from '../../../objects/Separator'
-import { ListTitle, ListSubTitle } from '../../../objects/ListContent'
+import { ListTitle, ListContent } from '../../../objects/ListContent'
 
 const Content = () => (
   <Section>
@@ -16,28 +16,28 @@ const Content = () => (
         <ListItem>
           <Link to="/about">
             <ListTitle>ABOUT ME</ListTitle>
-            <ListSubTitle>
+            <ListContent>
               Detailed page about me, interests, education, professional, hobbies, skills and
               awards.
-            </ListSubTitle>
+            </ListContent>
           </Link>
         </ListItem>
         <ListItem>
           <Link to="/portfolio">
             <ListTitle>PORTFÓLIO</ListTitle>
-            <ListSubTitle>List of my main jobs.</ListSubTitle>
+            <ListContent>List of my main jobs.</ListContent>
           </Link>
         </ListItem>
         <ListItem>
           <Link to="/teaching-talks">
             <ListTitle>TEACHING/TALKS</ListTitle>
-            <ListSubTitle>Where i spread the word of development.</ListSubTitle>
+            <ListContent>Where i spread the word of development.</ListContent>
           </Link>
         </ListItem>
         <ListItem>
           <Link to="/contact">
             <ListTitle>CONTACT</ListTitle>
-            <ListSubTitle>Let’s keep in touch thought social media networks.</ListSubTitle>
+            <ListContent>Let’s keep in touch thought social media networks.</ListContent>
           </Link>
         </ListItem>
       </ListContainer>

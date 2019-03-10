@@ -5,7 +5,7 @@ import { RightContent } from '../../../components/AlignContent'
 import { ListContainer, ListItem } from '../../../components/ListContainer'
 
 import Separator from '../../../objects/Separator'
-import { ListTitle, ListSubTitle } from '../../../objects/ListContent'
+import { ListTitle, ListContent } from '../../../objects/ListContent'
 
 const Interests = () => (
   <Section>
@@ -14,23 +14,23 @@ const Interests = () => (
       <ListContainer>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">WEB DEVELOPMENT</ListTitle>
-          <ListSubTitle>All related to development for web.</ListSubTitle>
+          <ListContent>All related to development for web.</ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">EVOLUTIONARY COMPUTING</ListTitle>
-          <ListSubTitle>
+          <ListContent>
             {' '}
             It amounts to building, applying and studying algorithms based on principles of natural
             selection.
-          </ListSubTitle>
+          </ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">ARTIFICIAL INTELIGENCE</ListTitle>
-          <ListSubTitle>Tradicional AI techniques.</ListSubTitle>
+          <ListContent>Tradicional AI techniques.</ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">MOBILE</ListTitle>
-          <ListSubTitle>Pwas, responsive and hybrid mobile applications.</ListSubTitle>
+          <ListContent>Pwas, responsive and hybrid mobile applications.</ListContent>
         </ListItem>
       </ListContainer>
     </RightContent>

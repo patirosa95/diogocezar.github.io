@@ -4,6 +4,7 @@ import { Page, Wrapper } from '../../components/Containers'
 
 import AboutMe from './AboutMe'
 import Interests from './Interests'
+import EducationBackground from './EducationBackground'
 
 class About extends Component {
   render() {
@@ -12,6 +13,7 @@ class About extends Component {
         <Wrapper>
           <AboutMe />
           <Interests />
+          <EducationBackground />
         </Wrapper>
       </Page>
     )
