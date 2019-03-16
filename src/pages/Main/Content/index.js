@@ -13,7 +13,7 @@ const Content = () => (
     <Separator number="02" title="Content" />
     <RightContent>
       <ListContainer>
-        <ListItem>
+        <ListItem hoverColor="purple-dark">
           <Link to="/about">
             <ListTitle>ABOUT ME</ListTitle>
             <ListContent>
@@ -22,19 +22,19 @@ const Content = () => (
             </ListContent>
           </Link>
         </ListItem>
-        <ListItem>
+        <ListItem hoverColor="purple-dark">
           <Link to="/portfolio">
             <ListTitle>PORTFÓLIO</ListTitle>
             <ListContent>List of my main jobs.</ListContent>
           </Link>
         </ListItem>
-        <ListItem>
+        <ListItem hoverColor="purple-dark">
           <Link to="/teaching-talks">
             <ListTitle>TEACHING/TALKS</ListTitle>
             <ListContent>Where i spread the word of development.</ListContent>
           </Link>
         </ListItem>
-        <ListItem>
+        <ListItem hoverColor="purple-dark">
           <Link to="/contact">
             <ListTitle>CONTACT</ListTitle>
             <ListContent>Let’s keep in touch thought social media networks.</ListContent>

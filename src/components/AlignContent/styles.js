@@ -15,4 +15,26 @@ const StyledRightContent = styled.div`
   }
 `
 
-export { StyledLeftContent, StyledRightContent }
+const StyledLeftContentList = styled.div`
+  width: 80%;
+  position: relative;
+  float: left;
+  height: 100%;
+`
+
+const StyledRightContentList = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  float: right;
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+`
+
+export {
+  StyledLeftContent, StyledRightContent, StyledLeftContentList, StyledRightContentList,
+}

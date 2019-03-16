@@ -2,19 +2,18 @@ import styled from 'styled-components'
 
 const StyledButton = styled.button`
   border: none;
-  padding: 10px 20px;
-  background-color: var(--color-white);
+  padding: 16px 26px;
+  background-color: ${({ type }) => (type === 'orange' ? 'var(--color-orange)' : 'var(--color-white)')};
   border-radius: 35px;
-  color: var(--color-purple-dark);
+  color: ${({ type }) => (type === 'orange' ? 'var(--color-white)' : 'var(--color-purple-dark)')};
   text-transform: uppercase;
   margin-right: 15px;
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
   font-size: 1rem;
-  line-height: 1rem;
-  padding-top: 13px;
+  height: 50px;
   cursor: pointer;
-  margin-bottom: var(--size-s1);
+  margin-bottom: ${({ bottom }) => bottom || 'var(--size-s1)'};
 `
 
 export default StyledButton

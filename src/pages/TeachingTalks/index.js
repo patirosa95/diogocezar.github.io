@@ -1,16 +1,38 @@
 import React, { Component, Fragment } from 'react'
-import { withRouter } from 'react-router-dom'
-import Button from '../../objects/Button'
 
-class TeachingTalks extends Component {
+import { Page, Wrapper } from '../../components/Containers'
+
+import SpreadTheWorld from './SpreadTheWorld'
+import GitHub from './GitHub'
+import Teacher from './Teacher'
+import MainLectures from './MainLectures'
+
+import MainEventsParticipations from './MainEventsParticipations'
+import MainPappers from './MainPappers'
+import Monographies from './Monographies'
+
+class About extends Component {
   render() {
     return (
       <Fragment>
-        <h1>Teaching Talks</h1>
-        <Button>Test Button</Button>
+        <Page color="orange">
+          <Wrapper>
+            <SpreadTheWorld />
+            <GitHub />
+            <Teacher />
+            <MainLectures />
+          </Wrapper>
+        </Page>
+        <Page color="purple">
+          <Wrapper>
+            <MainEventsParticipations />
+            <MainPappers />
+            <Monographies />
+          </Wrapper>
+        </Page>
       </Fragment>
     )
   }
 }
 
-export default withRouter(TeachingTalks)
+export default About

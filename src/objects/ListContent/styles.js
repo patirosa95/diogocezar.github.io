@@ -19,7 +19,16 @@ const StyledListSubTitle = styled.p`
   line-height: 2.6rem;
   margin-bottom: 0.5rem;
   text-decoration: none !important;
-  color: ${({ type }) => (type === 'orange' ? 'var(--color-orange-dark)' : 'var(--color-orange)')};
+  color: ${({ type }) => {
+    switch (type) {
+      case 'orange':
+        return 'var(--color-orange-dark)'
+      case 'white':
+        return 'var(--color-white)'
+      default:
+        return 'var(--color-orange)'
+    }
+  }};
 `
 
 const StyledListContent = styled.p`
