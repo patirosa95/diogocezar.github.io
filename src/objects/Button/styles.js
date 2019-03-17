@@ -7,7 +7,7 @@ const StyledButton = styled.button`
   border-radius: 35px;
   color: ${({ type }) => (type === 'orange' ? 'var(--color-white)' : 'var(--color-purple-dark)')};
   text-transform: uppercase;
-  margin-right: 15px;
+  margin-right: ${({ right }) => right || 'var(--size-s1)'};
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
   font-size: 1rem;

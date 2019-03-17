@@ -1,16 +1,21 @@
-import React, { Component, Fragment } from 'react'
-import { withRouter } from 'react-router-dom'
-import Button from '../../objects/Button'
+import React, { Component } from 'react'
+
+import { Page, Wrapper } from '../../components/Containers'
+
+import ChatWithYou from './ChatWithYou'
+import SocialNetworks from './SocialNetWorks'
 
 class Contact extends Component {
   render() {
     return (
-      <Fragment>
-        <h1>Contact</h1>
-        <Button>Test Button</Button>
-      </Fragment>
+      <Page>
+        <Wrapper>
+          <ChatWithYou />
+          <SocialNetworks />
+        </Wrapper>
+      </Page>
     )
   }
 }
 
-export default withRouter(Contact)
+export default Contact

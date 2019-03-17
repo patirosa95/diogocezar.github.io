@@ -11,4 +11,12 @@ const StyledImage = styled.img`
   margin-bottom: 100px;
 `
 
-export default StyledImage
+const StyledImageItemColumn = styled.img`
+  height: 125px;
+  width: 125px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: var(--size-s1);
+`
+
+export { StyledImage, StyledImageItemColumn }

@@ -15,6 +15,12 @@ const StyledRightContent = styled.div`
   }
 `
 
+const StyledFullContent = styled.div`
+  width: 100%;
+  float: left;
+  position: relative;
+`
+
 const StyledLeftContentList = styled.div`
   width: 80%;
   position: relative;
@@ -36,5 +42,9 @@ const StyledRightContentList = styled.div`
 `
 
 export {
-  StyledLeftContent, StyledRightContent, StyledLeftContentList, StyledRightContentList,
+  StyledLeftContent,
+  StyledRightContent,
+  StyledLeftContentList,
+  StyledRightContentList,
+  StyledFullContent,
 }

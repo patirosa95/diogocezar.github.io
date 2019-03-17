@@ -20,4 +20,16 @@ const StyledSubTitle = styled.h3`
   margin-bottom: ${({ type }) => (type === 'internal' ? 'var(--size-s3)' : 'var(--size-s5)')};
 `
 
-export { StyledTitle, StyledSubTitle }
+const StyledTitleItemColumn = styled.h3`
+  width: 100%;
+  font-family: 'AkzidenzGroteskBE';
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2rem;
+  color: var(--color-white);
+  margin-bottom: var(--size-s1);
+`
+
+export { StyledTitle, StyledSubTitle, StyledTitleItemColumn }

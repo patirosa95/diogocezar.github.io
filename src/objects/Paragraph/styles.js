@@ -7,7 +7,7 @@ const StyledParagraph = styled.p`
   font-weight: ${({ bold }) => (bold ? 'bold' : 'normal')}!important;
   font-size: ${({ size }) => (size === 'small' ? '1rem' : '1.6rem')}!important;
   line-height: ${({ size }) => (size === 'small' ? '2rem' : '2.7rem')}!important;
-  margin-bottom: var(--size-s4);
+  margin-bottom: ${({ bottom }) => bottom || 'var(--size-s4)'}!important;
 `
 
 export default StyledParagraph

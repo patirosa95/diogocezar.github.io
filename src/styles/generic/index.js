@@ -8,16 +8,16 @@ const Generic = createGlobalStyle`
     box-sizing: border-box;
 	}
 	html{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth!important;
   }
 	body {
-    font-family: 'AGaramondPro';
-    font-size: 14px;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    background-color: var(--color-purple);
-    color: var(--color-orange);
-    height: 100%;
+    font-family: 'AGaramondPro'!important;
+    font-size: 14px!important;
+    text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+    background-color: var(--color-purple)!important;
+    color: var(--color-orange)!important;
+    height: 100%!important;
 	}
 `
 

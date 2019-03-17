@@ -4,15 +4,17 @@ import {
   StyledRightContent,
   StyledLeftContentList,
   StyledRightContentList,
+  StyledFullContent,
 } from './styles'
 
 const LeftContent = ({ children }) => <StyledLeftContent>{children}</StyledLeftContent>
 const RightContent = ({ children }) => <StyledRightContent>{children}</StyledRightContent>
+const FullContent = ({ children }) => <StyledFullContent>{children}</StyledFullContent>
 const LeftContentList = ({ children }) => <StyledLeftContentList>{children}</StyledLeftContentList>
 const RightContentList = ({ children }) => (
   <StyledRightContentList>{children}</StyledRightContentList>
 )
 
 export {
-  LeftContent, RightContent, LeftContentList, RightContentList,
+  LeftContent, RightContent, FullContent, LeftContentList, RightContentList,
 }

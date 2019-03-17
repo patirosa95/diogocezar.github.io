@@ -17,6 +17,8 @@ import Fonts from '../styles/fonts'
 
 import ScrollToTop from '../components/ScrollToTop'
 
+import 'antd/dist/antd.css'
+
 class Router extends Component {
   render() {
     return (
