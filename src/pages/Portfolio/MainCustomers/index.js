@@ -4,7 +4,6 @@ import { Section } from '../../../components/Containers'
 import { FullContent } from '../../../components/AlignContent'
 import { Row, Col4, WrapperCol } from '../../../components/Grid'
 
-import Button from '../../../objects/Button'
 import Separator from '../../../objects/Separator'
 import { TitleItemColumn } from '../../../objects/Titles'
 import { ImageItemColumn } from '../../../objects/Images'
@@ -17,7 +16,7 @@ const MainCustomers = () => (
       <Row>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/main-customers/twitter.png" />
+            <ImageItemColumn src="/assets/images/main-customers/twitter.svg" />
             <TitleItemColumn>Twitter</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Developed front-end of a website where people could choose if Eto’o soccer player
@@ -27,88 +26,96 @@ const MainCustomers = () => (
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/twitter.svg" />
-            <TitleItemColumn>Twitter</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/brahma.svg" />
+            <TitleItemColumn>Brahma</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
           </WrapperCol>
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/instagram.svg" />
-            <TitleItemColumn>Instagram</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/visa.svg" />
+            <TitleItemColumn>Visa</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
           </WrapperCol>
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/facebook.svg" />
-            <TitleItemColumn>Facebook</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/sonho-de-valsa.svg" />
+            <TitleItemColumn>Sonho de Valsa</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
           </WrapperCol>
         </Col4>
       </Row>
       <Row>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/linkedin.svg" />
-            <TitleItemColumn>LinkedIn</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/volkswagen.svg" />
+            <TitleItemColumn>Volkswagen</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
           </WrapperCol>
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/skype.svg" />
-            <TitleItemColumn>Skype</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/skol.svg" />
+            <TitleItemColumn>Skol</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
           </WrapperCol>
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/flickr.svg" />
-            <TitleItemColumn>Flickr</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/gillette.svg" />
+            <TitleItemColumn>Gillette</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
           </WrapperCol>
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/youtube.svg" />
-            <TitleItemColumn>Youtube</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/lacta.svg" />
+            <TitleItemColumn>Lacta</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+          </WrapperCol>
+        </Col4>
+      </Row>
+      <Row>
+        <Col4>
+          <WrapperCol>
+            <ImageItemColumn src="/assets/images/main-customers/subway.svg" />
+            <TitleItemColumn>Subway</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
+            </Paragraph>
+          </WrapperCol>
+        </Col4>
+        <Col4>
+          <WrapperCol>
+            <ImageItemColumn src="/assets/images/main-customers/recco.svg" />
+            <TitleItemColumn>Recco</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
+            </Paragraph>
           </WrapperCol>
         </Col4>
       </Row>

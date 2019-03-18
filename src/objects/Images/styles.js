@@ -16,7 +16,7 @@ const StyledImageItemColumn = styled.img`
   width: 125px;
   margin: 0 auto;
   display: block;
-  margin-bottom: var(--size-s1);
+  margin-bottom: var(--size-s3);
 `
 
 export { StyledImage, StyledImageItemColumn }
