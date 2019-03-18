@@ -11,7 +11,7 @@ import Paragraph from '../../../objects/Paragraph'
 
 const MainCustomers = () => (
   <Section>
-    <Separator number="02" title="Social Networks" />
+    <Separator number="02" title="Main Customers" />
     <FullContent>
       <Row>
         <Col4>

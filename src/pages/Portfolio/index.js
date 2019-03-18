@@ -4,6 +4,7 @@ import { Page, Wrapper } from '../../components/Containers'
 
 import ProudToBeenPart from './ProudToBeenPart'
 import MainCustomers from './MainCustomers'
+import Musical from './Musical'
 
 class Contact extends Component {
   render() {
@@ -12,6 +13,7 @@ class Contact extends Component {
         <Wrapper>
           <ProudToBeenPart />
           <MainCustomers />
+          <Musical />
         </Wrapper>
       </Page>
     )

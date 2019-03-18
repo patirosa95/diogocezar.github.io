@@ -17,7 +17,7 @@ const Introductions = () => (
     </LeftContent>
     <RightContent>
       <Title type="main">Diogo Cezar is a Sênior FullStack Web Developer</Title>
-      <SubTitle type="main">Worked with Brazilian Big Players</SubTitle>
+      <SubTitle color="purple-dark">Worked with Brazilian Big Players</SubTitle>
       <QuotedParagraph first="Biography">
         I’m just a guy that knows that knows nothing. And it’s exactly what makes me moving on. As
         teacher, talker, developer and technology enthusiastic, I am always searching for new
