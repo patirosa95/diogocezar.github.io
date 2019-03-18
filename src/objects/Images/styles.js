@@ -17,6 +17,7 @@ const StyledImageItemColumn = styled.img`
   margin: 0 auto;
   display: block;
   margin-bottom: var(--size-s3);
+  border-radius: 50%;
 `
 
 export { StyledImage, StyledImageItemColumn }

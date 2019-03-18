@@ -9,9 +9,9 @@ import { TitleItemColumn } from '../../../objects/Titles'
 import { ImageItemColumn } from '../../../objects/Images'
 import Paragraph from '../../../objects/Paragraph'
 
-const MainCustomers = () => (
+const Agency = () => (
   <Section>
-    <Separator number="03" title="Musical" />
+    <Separator number="04" title="Agency" />
     <FullContent>
       <Row>
         <Col4>
@@ -101,4 +101,4 @@ const MainCustomers = () => (
   </Section>
 )
 
-export default MainCustomers
+export default Agency
