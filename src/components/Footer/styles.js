@@ -44,6 +44,7 @@ const StyledTitleFooter = styled.h3`
   margin-bottom: 1.5rem;
   text-decoration: none !important;
   text-align: ${({ align }) => align || 'center'};
+  color: var(--color-orange) !important;
 `
 
 const StyledContentFooter = styled.p`

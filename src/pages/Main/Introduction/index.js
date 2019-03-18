@@ -4,7 +4,7 @@ import { Section } from '../../../components/Containers'
 import { LeftContent, RightContent } from '../../../components/AlignContent'
 
 import Separator from '../../../objects/Separator'
-import Image from '../../../objects/Image'
+import Image from '../../../objects/Images'
 import { Title, SubTitle } from '../../../objects/Titles'
 import { QuotedParagraph } from '../../../objects/Quotes'
 import Button from '../../../objects/Button'

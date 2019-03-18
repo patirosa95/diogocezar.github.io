@@ -41,10 +41,18 @@ const StyledRightContentList = styled.div`
   height: 100%;
 `
 
+const StyledCenter = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+`
+
 export {
   StyledLeftContent,
   StyledRightContent,
   StyledLeftContentList,
   StyledRightContentList,
   StyledFullContent,
+  StyledCenter,
 }

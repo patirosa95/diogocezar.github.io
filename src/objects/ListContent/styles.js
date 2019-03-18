@@ -35,6 +35,7 @@ const StyledListContent = styled.p`
   color: var(--color-white);
   font-size: 1.4rem;
   padding-bottom: var(--size-s1);
+  margin-bottom: 0px !important;
   line-height: 2.3rem;
 `
 

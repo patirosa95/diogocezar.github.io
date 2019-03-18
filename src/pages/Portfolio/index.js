@@ -1,16 +1,21 @@
-import React, { Component, Fragment } from 'react'
-import { withRouter } from 'react-router-dom'
-import Button from '../../objects/Button'
+import React, { Component } from 'react'
 
-class Portifolio extends Component {
+import { Page, Wrapper } from '../../components/Containers'
+
+import ProudToBeenPart from './ProudToBeenPart'
+import MainCustomers from './MainCustomers'
+
+class Contact extends Component {
   render() {
     return (
-      <Fragment>
-        <h1>Portifolio</h1>
-        <Button>Test Button</Button>
-      </Fragment>
+      <Page color="purple-dark">
+        <Wrapper>
+          <ProudToBeenPart />
+          <MainCustomers />
+        </Wrapper>
+      </Page>
     )
   }
 }
 
-export default withRouter(Portifolio)
+export default Contact

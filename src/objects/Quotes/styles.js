@@ -31,6 +31,10 @@ const StyledQuotedParagraph = styled.blockquote`
     font-weight: bold;
     font-size: 1.5rem;
   }
+  a {
+    color: var(--color-orange) !important;
+    font-style: italic;
+  }
 `
 
 export { StyledQuotedMain, StyledQuotedParagraph }

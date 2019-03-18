@@ -12,6 +12,7 @@ const StyledSeparator = styled.header`
     font-style: italic;
     font-weight: normal;
     font-size: 2rem;
+    margin-bottom: 0px !important;
     span {
       font-family: 'AkzidenzGroteskBE';
       font-weight: bold;

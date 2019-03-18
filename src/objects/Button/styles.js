@@ -14,6 +14,7 @@ const StyledButton = styled.button`
   height: 50px;
   cursor: pointer;
   margin-bottom: ${({ bottom }) => bottom || 'var(--size-s1)'};
+  min-width: 180px;
 `
 
 export default StyledButton

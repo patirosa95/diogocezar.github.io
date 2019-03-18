@@ -10,21 +10,19 @@ import { TitleItemColumn } from '../../../objects/Titles'
 import { ImageItemColumn } from '../../../objects/Images'
 import Paragraph from '../../../objects/Paragraph'
 
-const SocialNetworks = () => (
+const MainCustomers = () => (
   <Section>
     <Separator number="02" title="Social Networks" />
     <FullContent>
       <Row>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/social-networks/github.svg" />
-            <TitleItemColumn>GitHub</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/main-customers/twitter.png" />
+            <TitleItemColumn>Twitter</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Developed front-end of a website where people could choose if Eto’o soccer player
+              would go to play one game on Botafogo or Comercial club.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
           </WrapperCol>
         </Col4>
         <Col4>
@@ -118,4 +116,4 @@ const SocialNetworks = () => (
   </Section>
 )
 
-export default SocialNetworks
+export default MainCustomers
