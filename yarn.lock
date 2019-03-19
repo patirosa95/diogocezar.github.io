@@ -10929,6 +10929,13 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+svg-inline-react@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/svg-inline-react/-/svg-inline-react-3.1.0.tgz#fe2d55ca06fd4c8afa071c47224173781f98bac5"
+  integrity sha512-c39AIRQOUXLMD8fQ2rHmK1GOSO3tVuZk61bAXqIT05uhhm3z4VtQFITQSwyhL0WA2uxoJAIhPd2YV0CYQOolSA==
+  dependencies:
+    prop-types "^15.5.0"
+
 svgo@^1.0.0, svgo@^1.1.1:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.2.0.tgz#305a8fc0f4f9710828c65039bb93d5793225ffc3"

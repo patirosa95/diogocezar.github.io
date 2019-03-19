@@ -1,5 +1,9 @@
 import React from 'react'
+import InlineSVG from 'svg-inline-react'
 import Footer, { ColumnFooter, TitleFooter, ContentFooter } from '../../../components/Footer'
+import { ListContainer, ListItemFooter } from '../../../components/ListContainer'
+import Link from '../../../objects/Link'
+import { iconFooterGithub, iconFooterTwitter, iconFooterInstagram, iconFooterFacebook, iconFooterLinkedIn } from './Icons'
 
 const FooterMain = () => (
   <Footer>
@@ -27,9 +31,33 @@ const FooterMain = () => (
     <ColumnFooter>
       <TitleFooter align="right">SOCIAL NETWORKS</TitleFooter>
       <ContentFooter align="right">
-        You can contact me through <a href="mailto:diogo@diogocezar.dev">diogo@diogocezar.dev</a>
-        <br />
-        +55 (43) 933 000 663
+        <ListContainer>
+          <ListItemFooter>
+            <Link href="http://www.diogocezar.dev">
+              <InlineSVG src={iconFooterGithub} />
+            </Link>
+          </ListItemFooter>
+          <ListItemFooter>
+            <Link href="http://www.diogocezar.dev">
+              <InlineSVG src={iconFooterTwitter} />
+            </Link>
+          </ListItemFooter>
+          <ListItemFooter>
+            <Link href="http://www.diogocezar.dev">
+              <InlineSVG src={iconFooterInstagram} />
+            </Link>
+          </ListItemFooter>
+          <ListItemFooter>
+            <Link href="http://www.diogocezar.dev">
+              <InlineSVG src={iconFooterFacebook} />
+            </Link>
+          </ListItemFooter>
+          <ListItemFooter>
+            <Link href="http://www.diogocezar.dev">
+              <InlineSVG src={iconFooterLinkedIn} />
+            </Link>
+          </ListItemFooter>
+        </ListContainer>
       </ContentFooter>
     </ColumnFooter>
   </Footer>

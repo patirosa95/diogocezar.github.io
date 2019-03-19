@@ -36,4 +36,11 @@ const StyledListItem = styled.li`
   }
 `
 
-export { StyledListContainer, StyledListItem }
+const StyledListItemFooter = styled.li`
+  position: relative;
+  float: left;
+  list-style: none;
+  margin-right: var(--size-s1);
+`
+
+export { StyledListContainer, StyledListItem, StyledListItemFooter }
