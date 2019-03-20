@@ -1,6 +1,7 @@
-import React, { Component, Fragment } from 'react'
+import React, { Component } from 'react'
 
 import { Page, Wrapper } from '../../components/Containers'
+import { AboutAnimated } from '../../styles/animations'
 
 import AboutMe from './AboutMe'
 import Interests from './Interests'
@@ -13,7 +14,7 @@ import Awards from './Awards'
 class About extends Component {
   render() {
     return (
-      <Fragment>
+      <AboutAnimated>
         <Page color="orange">
           <Wrapper>
             <AboutMe />
@@ -29,7 +30,7 @@ class About extends Component {
             <Awards />
           </Wrapper>
         </Page>
-      </Fragment>
+      </AboutAnimated>
     )
   }
 }
