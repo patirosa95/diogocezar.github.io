@@ -16,7 +16,7 @@ import Generic from '../styles/generic'
 import Base from '../styles/base'
 import Fonts from '../styles/fonts'
 
-import PageContainer from '../components/PageContainer'
+import AnimationContainer from '../components/AnimationContainer'
 
 import 'antd/dist/antd.css'
 
@@ -27,7 +27,7 @@ class Router extends Component {
         <MainRouter>
           <Route
             render={({ location }) => (
-              <PageContainer>
+              <AnimationContainer>
                 <TransitionGroup>
                   <CSSTransition timeout={500} classNames="page" key={location.pathname}>
                     <Fragment>
@@ -45,7 +45,7 @@ class Router extends Component {
                     </Fragment>
                   </CSSTransition>
                 </TransitionGroup>
-              </PageContainer>
+              </AnimationContainer>
             )}
           />
         </MainRouter>

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-const StyledPageContainer = styled.div`
+const StyledAnimationContainer = styled.div`
   position: relative;
   overflow-y: hidden;
 `
 
-export default StyledPageContainer
+export default StyledAnimationContainer
