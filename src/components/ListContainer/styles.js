@@ -13,6 +13,17 @@ const StyledListContainer = styled.ul`
   }
 `
 
+const StyledListContainerFooter = styled.ul`
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+`
+
 const StyledListItem = styled.li`
   position: relative;
   float: left;
@@ -40,7 +51,12 @@ const StyledListItemFooter = styled.li`
   position: relative;
   float: left;
   list-style: none;
-  margin-right: var(--size-s1);
+  svg {
+    height: 60px;
+    width: 60px;
+  }
 `
 
-export { StyledListContainer, StyledListItem, StyledListItemFooter }
+export {
+  StyledListContainer, StyledListContainerFooter, StyledListItem, StyledListItemFooter,
+}

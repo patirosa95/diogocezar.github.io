@@ -1,9 +1,15 @@
 import React from 'react'
 import InlineSVG from 'svg-inline-react'
 import Footer, { ColumnFooter, TitleFooter, ContentFooter } from '../../../components/Footer'
-import { ListContainer, ListItemFooter } from '../../../components/ListContainer'
+import { ListContainerFooter, ListItemFooter } from '../../../components/ListContainer'
 import Link from '../../../objects/Link'
-import { iconFooterGithub, iconFooterTwitter, iconFooterInstagram, iconFooterFacebook, iconFooterLinkedIn } from './Icons'
+import {
+  iconFooterGithub,
+  iconFooterTwitter,
+  iconFooterInstagram,
+  iconFooterFacebook,
+  iconFooterLinkedIn,
+} from './Icons'
 
 const FooterMain = () => (
   <Footer>
@@ -31,7 +37,7 @@ const FooterMain = () => (
     <ColumnFooter>
       <TitleFooter align="right">SOCIAL NETWORKS</TitleFooter>
       <ContentFooter align="right">
-        <ListContainer>
+        <ListContainerFooter>
           <ListItemFooter>
             <Link href="http://www.diogocezar.dev">
               <InlineSVG src={iconFooterGithub} />
@@ -57,7 +63,7 @@ const FooterMain = () => (
               <InlineSVG src={iconFooterLinkedIn} />
             </Link>
           </ListItemFooter>
-        </ListContainer>
+        </ListContainerFooter>
       </ContentFooter>
     </ColumnFooter>
   </Footer>
