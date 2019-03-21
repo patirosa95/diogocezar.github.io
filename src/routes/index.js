@@ -29,7 +29,7 @@ class Router extends Component {
             render={({ location }) => (
               <AnimationContainer>
                 <TransitionGroup>
-                  <CSSTransition timeout={500} classNames="page" key={location.pathname}>
+                  <CSSTransition timeout={1000} classNames="page" key={location.pathname}>
                     <Fragment>
                       <Switch location={location}>
                         <Route exact path="/" component={Main} />
@@ -38,10 +38,6 @@ class Router extends Component {
                         <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/teaching-talks" component={TeachingTalks} />
                       </Switch>
-                      <Settings />
-                      <Fonts />
-                      <Generic />
-                      <Base />
                     </Fragment>
                   </CSSTransition>
                 </TransitionGroup>
@@ -49,6 +45,10 @@ class Router extends Component {
             )}
           />
         </MainRouter>
+        <Settings />
+        <Fonts />
+        <Generic />
+        <Base />
       </Provider>
     )
   }

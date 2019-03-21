@@ -15,6 +15,8 @@ const StyledQuotedMain = styled.blockquote`
     font-weight: bold;
     font-size: 1.5rem;
     color: var(--color-white);
+    margin-top: var(--size-s3);
+    display: inline-block;
   }
 `
 

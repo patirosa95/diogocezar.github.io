@@ -3,7 +3,7 @@ import {
   StyledFooter, StyledColumnFooter, StyledTitleFooter, StyledContentFooter,
 } from './styles'
 
-const Footer = ({ children }) => <StyledFooter>{children}</StyledFooter>
+const Footer = props => <StyledFooter {...props}>{props.children}</StyledFooter>
 const ColumnFooter = ({ children }) => <StyledColumnFooter>{children}</StyledColumnFooter>
 const TitleFooter = ({ children, ...props }) => (
   <StyledTitleFooter {...props}>{children}</StyledTitleFooter>

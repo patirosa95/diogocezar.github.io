@@ -12,7 +12,7 @@ class Contact extends Component {
   render() {
     return (
       <ContactAnimated>
-        <Page>
+        <Page color="purple">
           <Wrapper>
             <ChatWithYou />
             <SocialNetworks />

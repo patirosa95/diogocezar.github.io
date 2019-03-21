@@ -15,13 +15,14 @@ const StyledListContainer = styled.ul`
 
 const StyledListContainerFooter = styled.ul`
   position: relative;
-  float: left;
+  float: right;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: space-between;
+  max-width: 360px;
 `
 
 const StyledListItem = styled.li`

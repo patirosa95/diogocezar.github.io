@@ -25,7 +25,7 @@ class About extends Component {
             <MainLectures />
           </Wrapper>
         </Page>
-        <Page color="purple">
+        <Page color="purple" decoration={true} decorationColor="purple">
           <Wrapper>
             <MainEventsParticipations />
             <MainPappers />

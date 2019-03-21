@@ -23,7 +23,7 @@ class About extends Component {
             <MainProfessionalBackground />
           </Wrapper>
         </Page>
-        <Page color="purple">
+        <Page color="purple" decoration={true} decorationColor="purple">
           <Wrapper>
             <Hobbies />
             <Skills />

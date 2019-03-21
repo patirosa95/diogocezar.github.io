@@ -8,15 +8,14 @@ const Generic = createGlobalStyle`
     box-sizing: border-box;
 	}
 	html{
-    scroll-behavior: smooth!important;
+
   }
 	body {
     font-family: 'AGaramondPro'!important;
     font-size: 14px!important;
     text-rendering: optimizeLegibility!important;
     -webkit-font-smoothing: antialiased!important;
-    background-color: var(--color-purple)!important;
-    color: var(--color-orange)!important;
+    background-color: var(--color-purple-dark)!important;
     height: 100%!important;
 	}
 `

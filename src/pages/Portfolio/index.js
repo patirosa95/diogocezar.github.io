@@ -8,6 +8,7 @@ import ProudToBeenPart from './ProudToBeenPart'
 import MainCustomers from './MainCustomers'
 import Musical from './Musical'
 import Agency from './Agency'
+import Demos from './Demos'
 
 class Contact extends Component {
   render() {
@@ -19,6 +20,11 @@ class Contact extends Component {
             <MainCustomers />
             <Musical />
             <Agency />
+          </Wrapper>
+        </Page>
+        <Page color="orange" decoration={true} decorationColor="orange">
+          <Wrapper>
+            <Demos />
           </Wrapper>
         </Page>
       </PortifolioAnimated>

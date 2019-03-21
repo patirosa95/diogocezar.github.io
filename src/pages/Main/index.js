@@ -13,7 +13,7 @@ class Main extends Component {
   render() {
     return (
       <MainAnimated>
-        <Page>
+        <Page color="purple" paddingBottom="0">
           <Wrapper>
             <Introduction />
             <Content />

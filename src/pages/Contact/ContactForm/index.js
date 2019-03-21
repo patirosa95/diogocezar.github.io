@@ -3,7 +3,7 @@ import React from 'react'
 import { Form } from 'antd'
 
 import { Section } from '../../../components/Containers'
-import { RightContent, CenterContent } from '../../../components/AlignContent'
+import { FullContent, CenterContent } from '../../../components/AlignContent'
 import { Col2, Col1, Row } from '../../../components/Grid'
 
 import Separator from '../../../objects/Separator'
@@ -16,7 +16,7 @@ const ContactForm = (props) => {
   return (
     <Section>
       <Separator number="03" title="Contact Form" />
-      <RightContent>
+      <FullContent>
         <Paragraph first="Let's keep in contact" hasQuotedMarks={false}>
           You can send-me a message thought this form. Please let-me know your name and e-mail to
           prepare a cool response.
@@ -51,7 +51,7 @@ const ContactForm = (props) => {
             <Button type="orange">Send</Button>
           </CenterContent>
         </Row>
-      </RightContent>
+      </FullContent>
     </Section>
   )
 }

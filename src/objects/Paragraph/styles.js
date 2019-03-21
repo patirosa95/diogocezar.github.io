@@ -26,7 +26,7 @@ const StyledParagraph = styled.p`
     }
   }}!important;
   margin-bottom: ${({ bottom }) => bottom || 'var(--size-s4)'}!important;
-  padding: ${({ padding }) => padding || '0.5rem'}!important;
+  padding: ${({ padding }) => padding || '0'}!important;
   a {
     color: var(--color-orange) !important;
   }

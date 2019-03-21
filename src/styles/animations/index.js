@@ -1,96 +1,65 @@
 import styled, { keyframes } from 'styled-components'
 
-const slideInLeft = keyframes`
-  from {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-    visibility: visible;
-  }
-
-  to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+const appear = keyframes`
+	from { opacity: 0; }
+	to { opacity: 1; }
 `
-const slideOutLeft = keyframes`
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
+const disappear = keyframes`
+	from { opacity: 1; }
+	to { opacity: 0; }
 `
 
-const slideInRight = keyframes`
-  from {
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
+const time = '0.9s'
 
-  to {
-    transform: translate3d(0, 0, 0);
-  }
+const baseAnimation = styled.div`
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 100%;
 `
 
-const slideOutRight = keyframes`
-  from {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-
-  to {
-    visibility: hidden;
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-  }
-`
-
-const MainAnimated = styled.div`
+const MainAnimated = styled(baseAnimation)`
   &.page-enter {
-    animation: ${slideInLeft} 0.25s forwards;
+    animation: ${appear} ${time} ease both;
   }
   &.page-exit {
-    animation: ${slideOutLeft} 0.25s forwards;
+    animation: ${disappear} ${time} ease both;
   }
 `
 
-const AboutAnimated = styled.div`
+const AboutAnimated = styled(baseAnimation)`
   &.page-enter {
-    animation: ${slideInRight} 0.25s forwards;
+    animation: ${appear} ${time} ease both;
   }
   &.page-exit {
-    animation: ${slideOutRight} 0.25s forwards;
+    animation: ${disappear} ${time} ease both;
   }
 `
 
-const ContactAnimated = styled.div`
+const ContactAnimated = styled(baseAnimation)`
   &.page-enter {
-    animation: ${slideInRight} 0.25s forwards;
+    animation: ${appear} ${time} ease both;
   }
   &.page-exit {
-    animation: ${slideOutRight} 0.25s forwards;
+    animation: ${disappear} ${time} ease both;
   }
 `
 
-const PortifolioAnimated = styled.div`
+const PortifolioAnimated = styled(baseAnimation)`
   &.page-enter {
-    animation: ${slideInRight} 0.25s forwards;
+    animation: ${appear} ${time} ease both;
   }
   &.page-exit {
-    animation: ${slideOutRight} 0.25s forwards;
+    animation: ${disappear} ${time} ease both;
   }
 `
 
-const TeachingTalksAnimated = styled.div`
+const TeachingTalksAnimated = styled(baseAnimation)`
   &.page-enter {
-    animation: ${slideInRight} 0.25s forwards;
+    animation: ${appear} ${time} ease both;
   }
   &.page-exit {
-    animation: ${slideOutRight} 0.25s forwards;
+    animation: ${disappear} ${time} ease both;
   }
 `
 

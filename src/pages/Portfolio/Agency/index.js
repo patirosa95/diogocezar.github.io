@@ -16,8 +16,8 @@ const Agency = () => (
       <Row>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/michel-telo.jpg" />
-            <TitleItemColumn>Michel Teló</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/agency/esss.svg" />
+            <TitleItemColumn>ESSS</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Developed front-end of a website where people could choose if Eto’o soccer player
               would go to play one game on Botafogo or Comercial club.
@@ -26,8 +26,8 @@ const Agency = () => (
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/fernando-e-sorocaba.jpg" />
-            <TitleItemColumn>Fernando & Sorocaba</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/agency/products-of-tomorrow.jpg" />
+            <TitleItemColumn>Products of Tomorrow</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Developed front-end of a website where people could choose if Eto’o soccer player
               would go to play one game on Botafogo or Comercial club.
@@ -36,8 +36,8 @@ const Agency = () => (
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/jads-e-jadson.jpg" />
-            <TitleItemColumn>Jads & Jadson</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/agency/hardera.svg" />
+            <TitleItemColumn>Hardera</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Developed front-end of a website where people could choose if Eto’o soccer player
               would go to play one game on Botafogo or Comercial club.
@@ -46,8 +46,8 @@ const Agency = () => (
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/thaeme-e-thiago.jpg" />
-            <TitleItemColumn>Thaeme & Thiago</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/agency/kokar.svg" />
+            <TitleItemColumn>Kokar</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Developed front-end of a website where people could choose if Eto’o soccer player
               would go to play one game on Botafogo or Comercial club.
@@ -58,8 +58,8 @@ const Agency = () => (
       <Row>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/inimigos-da-hp.jpg" />
-            <TitleItemColumn>Inimigos da HP</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/agency/angie.svg" />
+            <TitleItemColumn>Angie</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Developed front-end of a website where people could choose if Eto’o soccer player
               would go to play one game on Botafogo or Comercial club.
@@ -68,28 +68,8 @@ const Agency = () => (
         </Col4>
         <Col4>
           <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/marcos-e-belutti.jpg" />
-            <TitleItemColumn>Marcos & Belutti</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
-            </Paragraph>
-          </WrapperCol>
-        </Col4>
-        <Col4>
-          <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/henrique-e-diego.jpg" />
-            <TitleItemColumn>Henrique & Diego</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
-            </Paragraph>
-          </WrapperCol>
-        </Col4>
-        <Col4>
-          <WrapperCol>
-            <ImageItemColumn src="/assets/images/musical/joao-gustavo-e-murilo.jpg" />
-            <TitleItemColumn>João Gustavo & Murilo</TitleItemColumn>
+            <ImageItemColumn src="/assets/images/agency/boyband.svg" />
+            <TitleItemColumn>Boyband</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Developed front-end of a website where people could choose if Eto’o soccer player
               would go to play one game on Botafogo or Comercial club.
