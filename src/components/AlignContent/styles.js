@@ -10,9 +10,6 @@ const StyledRightContent = styled.div`
   width: 66.13902%;
   float: right;
   margin-right: 0;
-  p {
-    padding-right: var(--size-s6);
-  }
 `
 
 const StyledFullContent = styled.div`

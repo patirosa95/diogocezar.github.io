@@ -7,7 +7,7 @@ import { ListContainer, ListItem } from '../../../components/ListContainer'
 import { ListTitle, ListContent } from '../../../objects/ListContent'
 
 import Separator from '../../../objects/Separator'
-import Button from '../../../objects/Button'
+import { ButtonList } from '../../../objects/Button'
 
 const MainLectures = () => (
   <Section>
@@ -20,7 +20,7 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/etoo</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -29,7 +29,7 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/brahma-valley</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -38,7 +38,7 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/lacta</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -47,7 +47,7 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/sdv</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -56,7 +56,7 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/volks</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -65,7 +65,7 @@ const MainLectures = () => (
             <ListContent>http://boyband.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -74,7 +74,7 @@ const MainLectures = () => (
             <ListContent>http://www.kokar.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -83,7 +83,7 @@ const MainLectures = () => (
             <ListContent>https://www.esss.co</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>View Demo</Button>
+            <ButtonList>View Demo</ButtonList>
           </RightContentList>
         </ListItem>
       </ListContainer>

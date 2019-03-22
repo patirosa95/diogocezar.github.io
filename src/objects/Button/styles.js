@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledButton = styled.button`
+const BaseButton = styled.button`
   border: none;
   padding: 16px 26px;
   background-color: ${({ type }) => (type === 'orange' ? 'var(--color-orange)' : 'var(--color-white)')};
@@ -17,4 +17,10 @@ const StyledButton = styled.button`
   min-width: 180px;
 `
 
-export default StyledButton
+const StyledButton = styled(BaseButton)`
+  margin-top: 40px;
+`
+
+const StyledButtonList = styled(BaseButton)``
+
+export { StyledButton, StyledButtonList }

@@ -25,8 +25,13 @@ const StyledParagraph = styled.p`
         return '2.7rem'
     }
   }}!important;
-  margin-bottom: ${({ bottom }) => bottom || 'var(--size-s4)'}!important;
-  padding: ${({ padding }) => padding || '0'}!important;
+  margin-bottom: ${({ bottom }) => bottom || 'var(--size-s4)'} !important;
+  padding: ${({ padding }) => padding || '0'} !important;
+  ${({ padding }) => {
+    if (!padding) {
+      return 'padding-right: var(--size-s6)!important'
+    }
+  }}
   a {
     color: var(--color-orange) !important;
   }

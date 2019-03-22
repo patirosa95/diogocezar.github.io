@@ -1,19 +1,9 @@
 import React from 'react'
-import StyledButton from './styles'
+import { StyledButton, StyledButtonList } from './styles'
 
-const Button = props => (
-  <StyledButton {...props}>
-    {props.children}
-    <span class="button__container">
-      <span class="circle top-left" />
-      <span class="circle top-left" />
-      <span class="circle top-left" />
-      <span class="button__bg" />
-      <span class="circle bottom-right" />
-      <span class="circle bottom-right" />
-      <span class="circle bottom-right" />
-    </span>
-  </StyledButton>
-)
+const Button = props => <StyledButton {...props}>{props.children}</StyledButton>
+
+const ButtonList = props => <StyledButtonList {...props}>{props.children}</StyledButtonList>
 
 export default Button
+export { ButtonList }

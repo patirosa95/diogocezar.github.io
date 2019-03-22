@@ -12,7 +12,7 @@ const Skills = () => (
     <Separator number="06" title="Skills" />
     <RightContent>
       <SubTitle type="internal">GUESS WHICH ONE IS A POKEMON </SubTitle>
-      <Paragraph size="small">
+      <Paragraph size="small" font="sans-serif">
         JAVASCRIPT, UML, MYSQL, AJAX, IA, DISTRIBUTED COMPUTING, PARALLEL PROCESSING, POSTGRESQL,
         JAVA, CSS3, PHP, SQLSERVER, SQL, JQUERY, HTML5, SVN, XML, NODEJS, MONGODB, C #, GIT, DEV
         ANDROID, SENCHA JS, SENCHA TOUCH, WORDPRESS, OPENCART, OPENCART, VUE.JS, REACT JS,

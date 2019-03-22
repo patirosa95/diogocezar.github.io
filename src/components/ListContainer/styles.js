@@ -33,8 +33,8 @@ const StyledListItem = styled.li`
   list-style: none;
   border-bottom: 1px solid
     ${({ type }) => (type === 'orange' ? 'rgba(49, 36, 80, 0.36)' : 'rgba(153, 153, 153, 0.36)')};
-  padding-bottom: var(--size-s1);
-  margin-bottom: var(--size-s3);
+  padding-bottom: 0;
+  margin-bottom: 25px;
   color: var(--color-purple-dark);
   &:last-child {
     border-bottom: none;

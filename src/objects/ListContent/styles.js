@@ -6,7 +6,7 @@ const StyledListTitle = styled.h3`
   font-size: 2.6rem;
   text-transform: uppercase;
   line-height: 3rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 5px !important;
   text-decoration: none !important;
   color: ${({ type }) => (type === 'orange' ? 'var(--color-purple-dark)' : 'var(--color-orange)')};
 `
@@ -14,10 +14,10 @@ const StyledListTitle = styled.h3`
 const StyledListSubTitle = styled.p`
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   line-height: 2.6rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 13px !important;
   text-decoration: none !important;
   color: ${({ type }) => {
     switch (type) {
@@ -33,7 +33,7 @@ const StyledListSubTitle = styled.p`
 
 const StyledListContent = styled.p`
   color: var(--color-white);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   padding-bottom: var(--size-s1);
   margin-bottom: 0px !important;
   line-height: 2.3rem;
