@@ -21,6 +21,7 @@ const StyledListTitle = styled.h3`
   @media ${devices.laptop} {
     font-size: 2.2rem;
     line-height: 2.6rem;
+    margin-bottom: 10px !important;
     text-align: center;
   }
   @media ${devices.tablet} {

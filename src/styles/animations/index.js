@@ -1,4 +1,8 @@
-import styled, { keyframes } from 'styled-components'
+import styled, { keyframes, css } from 'styled-components'
+
+const Transition = css`
+  transition: all 0.25s linear !important;
+`
 
 const appear = keyframes`
 	from { opacity: 0; }
@@ -64,5 +68,10 @@ const TeachingTalksAnimated = styled(baseAnimation)`
 `
 
 export {
-  MainAnimated, AboutAnimated, ContactAnimated, PortifolioAnimated, TeachingTalksAnimated,
+  MainAnimated,
+  AboutAnimated,
+  ContactAnimated,
+  PortifolioAnimated,
+  TeachingTalksAnimated,
+  Transition,
 }

@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { devices } from '../../styles/devices'
+import { Transition } from '../../styles/animations'
 
 const StyledListContainer = styled.ul`
   position: relative;
@@ -46,7 +47,10 @@ const StyledListItem = styled.li`
   &:last-child {
     border-bottom: none;
   }
-  &:hover h3 {
+  a > h3 {
+    ${Transition}
+  }
+  &:hover a > h3 {
     color: ${({ hoverColor, type }) => {
     if (hoverColor) return `var(--color-${hoverColor})`
     if (type === 'orange') return 'var(--color-purple-dark)'
