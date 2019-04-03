@@ -9,6 +9,7 @@ const StyledFooter = styled.footer`
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  margin-top: var(--size-s4);
   display: flex;
   padding-left: var(--size-s6);
   padding-right: var(--size-s6);
