@@ -5,17 +5,32 @@ const StyledFooter = styled.footer`
   position: relative;
   float: left;
   width: 100%;
-  padding-bottom: var(--size-s2);
   background-color: var(--color-purple-dark);
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: var(--size-s4);
+  display: flex;
   padding-left: var(--size-s6);
   padding-right: var(--size-s6);
-  padding-bottom: var(--size-s4);
+  padding-bottom: var(--size-s5);
   padding-top: var(--size-s5);
-  display: flex;
+  @media ${devices.desktopLarge} {
+    padding-bottom: var(--size-s5);
+    padding-top: var(--size-s5);
+    padding-left: var(--size-s6);
+    padding-right: var(--size-s6);
+  }
   @media ${devices.laptopLarge} {
+    padding-left: var(--size-s4);
+    padding-right: var(--size-s4);
+  }
+  @media ${devices.tablet} {
+    padding-bottom: var(--size-s3);
+    padding-top: var(--size-s1);
+    padding-left: var(--size-s1);
+    padding-right: var(--size-s1);
+  }
+  @media ${devices.laptop} {
     display: block;
   }
   &::before,
@@ -44,23 +59,6 @@ const StyledFooter = styled.footer`
     background-image: linear-gradient(315deg, var(--color-purple-dark) 25%, transparent 25%),
       linear-gradient(45deg, var(--color-purple-dark) 25%, transparent 25%);
     background-position: 50%;
-  }
-
-  @media ${devices.desktopLarge} {
-    padding-bottom: var(--size-s5);
-    padding-top: var(--size-s5);
-    padding-left: var(--size-s6);
-    padding-right: var(--size-s6);
-  }
-  @media ${devices.laptopLarge} {
-    padding-left: var(--size-s4);
-    padding-right: var(--size-s4);
-  }
-  @media ${devices.table} {
-    padding-bottom: var(--size-s3);
-    padding-top: var(--size-s1);
-    padding-left: var(--size-s1);
-    padding-right: var(--size-s1);
   }
 `
 
