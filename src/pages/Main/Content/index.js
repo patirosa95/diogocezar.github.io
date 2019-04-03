@@ -16,7 +16,7 @@ const Content = () => (
         <ListItem hoverColor="purple-dark">
           <Link to="/about">
             <ListTitle>ABOUT ME</ListTitle>
-            <ListContent>
+            <ListContent menuMain={true}>
               Detailed page about me, interests, education, professional, hobbies, skills and
               awards.
             </ListContent>
@@ -25,19 +25,21 @@ const Content = () => (
         <ListItem hoverColor="purple-dark">
           <Link to="/portfolio">
             <ListTitle>PORTFÓLIO</ListTitle>
-            <ListContent>List of my main jobs.</ListContent>
+            <ListContent menuMain={true}>List of my main jobs.</ListContent>
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/teaching-talks">
             <ListTitle>TEACHING/TALKS</ListTitle>
-            <ListContent>Where i spread the word of development.</ListContent>
+            <ListContent menuMain={true}>Where i spread the word of development.</ListContent>
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/contact">
             <ListTitle>CONTACT</ListTitle>
-            <ListContent>Let’s keep in touch thought social media networks.</ListContent>
+            <ListContent menuMain={true}>
+              Let’s keep in touch thought social media networks.
+            </ListContent>
           </Link>
         </ListItem>
       </ListContainer>

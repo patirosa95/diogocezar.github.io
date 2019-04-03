@@ -14,6 +14,9 @@ const StyledFooter = styled.footer`
   padding-bottom: var(--size-s4);
   padding-top: var(--size-s5);
   display: flex;
+  @media (max-width: 1180px) {
+    display: block;
+  }
   &::before,
   &::after {
     position: absolute;
@@ -62,6 +65,12 @@ const StyledFooter = styled.footer`
 
 const StyledColumnFooter = styled.div`
   width: 33.33%;
+  @media (max-width: 1180px) {
+    position: relative;
+    float: left;
+    width: 100% !important;
+    margin-bottom: var(--size-s5);
+  }
 `
 
 const StyledTitleFooter = styled.h3`
@@ -74,6 +83,9 @@ const StyledTitleFooter = styled.h3`
   text-decoration: none !important;
   text-align: ${({ align }) => align || 'center'};
   color: var(--color-orange) !important;
+  @media (max-width: 1180px) {
+    text-align: center;
+  }
 `
 
 const StyledContentFooter = styled.p`
@@ -97,6 +109,10 @@ const StyledContentFooter = styled.p`
         return '0 25%'
     }
   }};
+  @media (max-width: 1180px) {
+    padding: 0 5%;
+    text-align: center;
+  }
   a {
     color: var(--color-orange) !important;
     text-decoration: none;

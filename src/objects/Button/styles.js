@@ -15,10 +15,21 @@ const BaseButton = styled.button`
   cursor: pointer;
   margin-bottom: ${({ bottom }) => bottom || 'var(--size-s1)'};
   min-width: 180px;
+  @media (max-width: 1180px) {
+    margin-bottom: 10px !important;
+  }
 `
 
 const StyledButton = styled(BaseButton)`
   margin-top: 40px;
+  @media (max-width: 1180px) {
+    margin-top: 10px;
+  }
+  @media (max-width: 992px) {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 `
 
 const StyledButtonList = styled(BaseButton)``

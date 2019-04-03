@@ -4,12 +4,25 @@ const StyledLeftContent = styled.div`
   width: 32.27805%;
   float: left;
   margin-right: 1.58293%;
+  @media (max-width: 1520px) {
+    width: 23%;
+  }
+  @media (max-width: 1180px) {
+    width: 100%;
+    margin-right: 0;
+  }
 `
 
 const StyledRightContent = styled.div`
   width: 66.13902%;
   float: right;
   margin-right: 0;
+  @media (max-width: 1520px) {
+    width: 67%;
+  }
+  @media (max-width: 1180px) {
+    width: 100%;
+  }
 `
 
 const StyledFullContent = styled.div`

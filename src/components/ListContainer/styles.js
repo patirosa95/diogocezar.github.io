@@ -23,6 +23,12 @@ const StyledListContainerFooter = styled.ul`
   display: flex;
   justify-content: space-between;
   max-width: 360px;
+  @media (max-width: 1180px) {
+    max-width: none;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+  }
 `
 
 const StyledListItem = styled.li`
