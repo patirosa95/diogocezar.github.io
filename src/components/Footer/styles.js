@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const StyledFooter = styled.footer`
   position: relative;
@@ -14,7 +15,7 @@ const StyledFooter = styled.footer`
   padding-bottom: var(--size-s4);
   padding-top: var(--size-s5);
   display: flex;
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     display: block;
   }
   &::before,
@@ -45,17 +46,17 @@ const StyledFooter = styled.footer`
     background-position: 50%;
   }
 
-  @media (max-width: 1800px) {
+  @media ${devices.desktopLarge} {
     padding-bottom: var(--size-s5);
     padding-top: var(--size-s5);
     padding-left: var(--size-s6);
     padding-right: var(--size-s6);
   }
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     padding-left: var(--size-s4);
     padding-right: var(--size-s4);
   }
-  @media (max-width: 700px) {
+  @media ${devices.table} {
     padding-bottom: var(--size-s3);
     padding-top: var(--size-s1);
     padding-left: var(--size-s1);
@@ -65,7 +66,7 @@ const StyledFooter = styled.footer`
 
 const StyledColumnFooter = styled.div`
   width: 33.33%;
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     position: relative;
     float: left;
     width: 100% !important;
@@ -83,7 +84,7 @@ const StyledTitleFooter = styled.h3`
   text-decoration: none !important;
   text-align: ${({ align }) => align || 'center'};
   color: var(--color-orange) !important;
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     text-align: center;
   }
 `
@@ -109,7 +110,7 @@ const StyledContentFooter = styled.p`
         return '0 25%'
     }
   }};
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     padding: 0 5%;
     text-align: center;
   }

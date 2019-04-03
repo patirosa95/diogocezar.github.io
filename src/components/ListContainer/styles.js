@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const StyledListContainer = styled.ul`
   position: relative;
@@ -23,7 +24,7 @@ const StyledListContainerFooter = styled.ul`
   display: flex;
   justify-content: space-between;
   max-width: 360px;
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     max-width: none;
     align-content: center;
     align-items: center;

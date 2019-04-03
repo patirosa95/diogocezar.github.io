@@ -1,13 +1,14 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const StyledLeftContent = styled.div`
   width: 32.27805%;
   float: left;
   margin-right: 1.58293%;
-  @media (max-width: 1520px) {
+  @media ${devices.desktop} {
     width: 23%;
   }
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     width: 100%;
     margin-right: 0;
   }
@@ -17,10 +18,10 @@ const StyledRightContent = styled.div`
   width: 66.13902%;
   float: right;
   margin-right: 0;
-  @media (max-width: 1520px) {
+  @media ${devices.desktop} {
     width: 67%;
   }
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     width: 100%;
   }
 `

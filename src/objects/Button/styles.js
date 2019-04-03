@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const BaseButton = styled.button`
   border: none;
@@ -15,17 +16,17 @@ const BaseButton = styled.button`
   cursor: pointer;
   margin-bottom: ${({ bottom }) => bottom || 'var(--size-s1)'};
   min-width: 180px;
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     margin-bottom: 10px !important;
   }
 `
 
 const StyledButton = styled(BaseButton)`
   margin-top: 40px;
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     margin-top: 10px;
   }
-  @media (max-width: 992px) {
+  @media ${devices.laptop} {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;

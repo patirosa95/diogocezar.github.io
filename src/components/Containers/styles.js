@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const StyledPage = styled.div`
   background-color: ${({ color }) => `var(--color-${color})` || 'var(--color-purple)'}!important;
@@ -55,17 +56,17 @@ const StyledWrapper = styled.div`
   padding-right: var(--size-s6);
   padding-bottom: var(--size-s5);
   padding-top: var(--size-s5);
-  @media (max-width: 1800px) {
+  @media ${devices.desktopLarge} {
     padding-bottom: var(--size-s5);
     padding-top: var(--size-s5);
     padding-left: var(--size-s6);
     padding-right: var(--size-s6);
   }
-  @media (max-width: 1180px) {
+  @media ${devices.laptopLarge} {
     padding-left: var(--size-s4);
     padding-right: var(--size-s4);
   }
-  @media (max-width: 700px) {
+  @media ${devices.tablet} {
     padding-bottom: var(--size-s3);
     padding-top: var(--size-s1);
     padding-left: var(--size-s1);
