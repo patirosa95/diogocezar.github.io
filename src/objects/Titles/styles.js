@@ -20,7 +20,8 @@ const StyledTitle = styled.h2`
   }
   @media ${devices.tablet} {
     font-size: ${({ type }) => (type === 'internal' ? '3rem' : '2rem')};
-    line-height: ${({ type }) => (type === 'internal' ? '4rem' : '2.5rem')};
+    line-height: ${({ type }) => (type === 'internal' ? '3.4rem' : '2.5rem')};
+    margin-bottom: ${({ type }) => (type === 'internal' ? 'var(--size-s3)' : 'var(--size-s2)')};
   }
 `
 
@@ -37,13 +38,10 @@ const StyledSubTitle = styled.h3`
     line-height: 2.8rem;
   }
   @media ${devices.laptopLarge} {
-    font-size: 1.8rem;
-    line-height: 2.5rem;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
     text-align: center;
-  }
-  @media ${devices.tablet} {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    margin-bottom: var(--size-s3);
   }
 `
 

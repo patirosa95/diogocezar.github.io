@@ -73,10 +73,6 @@ const StyledQuotedParagraph = styled.blockquote`
       font-size: 1.2rem;
     }
   }
-  a {
-    color: var(--color-orange) !important;
-    font-style: italic;
-  }
 `
 
 export { StyledQuotedMain, StyledQuotedParagraph }

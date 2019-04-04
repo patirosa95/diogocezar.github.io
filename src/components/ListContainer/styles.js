@@ -46,7 +46,7 @@ const StyledListItem = styled.li`
   height: 100%;
   list-style: none;
   border-bottom: 1px solid
-    ${({ type }) => (type === 'orange' ? 'rgba(49, 36, 80, 0.36)' : 'rgba(153, 153, 153, 0.36)')};
+    ${({ type }) => (type === 'orange' ? 'rgba(49, 36, 80, 0.1)' : 'rgba(153, 153, 153, 0.1)')};
   padding-bottom: 0;
   margin-bottom: 25px;
   color: var(--color-purple-dark);
@@ -87,8 +87,8 @@ const StyledListItemFooter = styled.li`
   }
   @media ${devices.laptop} {
     svg {
-      height: 60px;
-      width: 60px;
+      height: 50px;
+      width: 50px;
     }
   }
 `

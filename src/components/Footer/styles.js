@@ -23,8 +23,8 @@ const StyledFooter = styled.footer`
   }
   @media ${devices.laptopLarge} {
     padding-bottom: var(--size-s3);
-    padding-left: var(--size-s4);
-    padding-right: var(--size-s4);
+    padding-left: var(--size-s3);
+    padding-right: var(--size-s3);
   }
   @media ${devices.laptop} {
     display: block;

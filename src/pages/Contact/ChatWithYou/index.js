@@ -7,6 +7,7 @@ import Separator from '../../../objects/Separator'
 import Image from '../../../objects/Images'
 import { Title } from '../../../objects/Titles'
 import { QuotedParagraph } from '../../../objects/Quotes'
+import Link from '../../../objects/Link'
 
 const ChatWithYou = () => (
   <Section>
@@ -20,7 +21,10 @@ const ChatWithYou = () => (
         Will be a pleasure change experiences with you. I will be really glad if I could help you in
         any aspect. So, if you want to ask me something, or want to talk about technology, or maybe…
         hire my services, be comfortable to find me through{' '}
-        <a href="mailto:diogo@diogocezar.dev">diogo@diogocezar.dev</a> or in the follow ways.
+        <Link type="orange" href="mailto:diogo@diogocezar.dev">
+          diogo@diogocezar.dev
+        </Link>{' '}
+        or in the follow ways.
       </QuotedParagraph>
     </RightContent>
   </Section>

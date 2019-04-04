@@ -25,8 +25,8 @@ const StyledListTitle = styled.h3`
     text-align: center;
   }
   @media ${devices.tablet} {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 `
 
@@ -58,12 +58,12 @@ const StyledListSubTitle = styled.p`
   }
   @media ${devices.laptop} {
     font-size: 1.2rem;
-    line-height: 2.5rem;
+    line-height: 2.3rem;
     text-align: center;
   }
   @media ${devices.tablet} {
-    font-size: 1rem;
-    line-height: 2.3rem;
+    font-size: 1.1rem;
+    line-height: 2.2rem;
   }
 `
 
@@ -82,6 +82,8 @@ const StyledListContent = styled.p`
     line-height: 2.1rem;
   }
   @media ${devices.laptop} {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
     text-align: center;
     display: ${({ menuMain }) => (menuMain ? 'none' : 'block')};
   }

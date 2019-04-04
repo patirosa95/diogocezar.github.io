@@ -1,5 +1,6 @@
 import React from 'react'
+import StyledLink from './styles'
 
-const Link = props => <a {...props}>{props.children}</a>
+const Link = props => <StyledLink {...props}>{props.children}</StyledLink>
 
 export default Link

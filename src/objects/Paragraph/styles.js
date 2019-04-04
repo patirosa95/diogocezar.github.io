@@ -39,12 +39,33 @@ const StyledParagraph = styled.p`
   @media ${devices.desktop} {
     padding-right: 0 !important;
     padding-left: 0 !important;
-    font-size: 1.4rem !important;
-    line-height: 2.3rem !important;
+    font-size: ${({ size }) => {
+    switch (size) {
+      case 'small':
+        return '0.8rem'
+      case 'medium':
+        return '1rem'
+      default:
+        return '1.4rem'
+    }
+  }}!important;
+    line-height: ${({ size }) => {
+    switch (size) {
+      case 'small':
+        return '1.8rem'
+      case 'medium':
+        return '1.6rem'
+      default:
+        return '2.4rem'
+    }
+  }}!important;
   }
   @media ${devices.tablet} {
     font-size: 1.2rem !important;
     line-height: 2rem !important;
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
   }
 `
 

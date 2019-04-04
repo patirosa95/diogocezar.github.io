@@ -5,14 +5,12 @@ const StyledPage = styled.div`
   background-color: ${({ color }) => `var(--color-${color})` || 'var(--color-purple)'}!important;
   position: relative;
   float: left;
-  padding-bottom: ${({ paddingBottom }) => paddingBottom || 'var(--size-s5)'}!important;
+  padding-bottom: ${({ paddingBottom }) => paddingBottom || 'var(--size-s1)'}!important;
   width: 100%;
-  @media ${devices.tablet} {
-    padding-top: var(--size-s3);
-  }
   ${({ decoration, decorationColor }) => {
     if (decoration) {
       return `
+        padding-top: 40px;
         &::before,
         &::after {
           position: absolute;

@@ -7,6 +7,7 @@ import Separator from '../../../objects/Separator'
 import Image from '../../../objects/Images'
 import { Title } from '../../../objects/Titles'
 import { QuotedParagraph } from '../../../objects/Quotes'
+import Link from '../../../objects/Link'
 
 const ProudToBeenPart = () => (
   <Section>
@@ -26,9 +27,18 @@ const ProudToBeenPart = () => (
       </QuotedParagraph>
       <QuotedParagraph first="Agency Products" hasQuotedMarks={false}>
         I could work as developer with some big agencies like{' '}
-        <a href="http://www.bolha.com.br">Bolha</a>, <a href="http://www.bolha.com.br">Africa</a>{' '}
-        and <a href="http://www.bolha.com.br">Boyband</a>. In this cases, I worked sometimes only
-        with front-end and some times as full-stack.
+        <Link type="orange" href="http://www.bolha.com.br" target="_blank">
+          Bolha
+        </Link>
+        ,{' '}
+        <Link type="orange" href="http://www.bolha.com.br" target="_blank">
+          Africa
+        </Link>{' '}
+        and{' '}
+        <Link type="orange" href="http://www.bolha.com.br" target="_blank">
+          Boyband
+        </Link>
+        . In this cases, I worked sometimes only with front-end and some times as full-stack.
       </QuotedParagraph>
     </RightContent>
   </Section>

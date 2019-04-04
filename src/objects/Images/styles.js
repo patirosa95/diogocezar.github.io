@@ -10,6 +10,10 @@ const StyledImage = styled.img`
   display: block;
   margin-top: -20px;
   margin-bottom: 100px;
+  @media ${devices.laptop} {
+    margin-top: 0;
+    margin-bottom: var(--size-s3);
+  }
 `
 
 const StyledImageItemColumn = styled.img`
@@ -26,6 +30,10 @@ const StyledImageItemColumn = styled.img`
   @media ${devices.laptop} {
     height: 80px !important;
     width: 80px !important;
+  }
+  @media ${devices.mobileLarge} {
+    height: 125px !important;
+    width: 125px !important;
   }
 `
 
