@@ -37,6 +37,9 @@ const StyledLeftContentList = styled.div`
   position: relative;
   float: left;
   height: 100%;
+  @media ${devices.laptop} {
+    width: 100%;
+  }
 `
 
 const StyledRightContentList = styled.div`
@@ -50,6 +53,12 @@ const StyledRightContentList = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+  @media ${devices.laptop} {
+    margin-bottom: var(--size-s2);
+    position: relative;
+    float: left;
+    width: 100%;
+  }
 `
 
 const StyledCenter = styled.div`

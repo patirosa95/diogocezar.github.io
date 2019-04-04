@@ -38,6 +38,7 @@ const StyledParagraph = styled.p`
   }
   @media ${devices.desktop} {
     padding-right: 0 !important;
+    padding-left: 0 !important;
     font-size: 1.4rem !important;
     line-height: 2.3rem !important;
   }

@@ -40,8 +40,11 @@ const defaultCol4 = {
   xs: {
     span: 24,
   },
+  sm: {
+    span: 12,
+  },
   md: {
-    span: 6,
+    span: 12,
   },
   lg: {
     span: 6,

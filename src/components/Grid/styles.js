@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const StyledCol4 = Col => styled(Col)`
   display: flex !important;
@@ -8,6 +9,10 @@ const StyledCol4 = Col => styled(Col)`
   &:last-child {
     border-right: none !important;
   }
+  @media ${devices.laptop} {
+    border-right: none !important;
+    margin-bottom: var(--size-s2);
+  }
 `
 
 const StyledCol2 = Col => styled(Col)``
@@ -16,6 +21,9 @@ const StyledCol1 = Col => styled(Col)``
 
 const StyledRow = Row => styled(Row)`
   margin-bottom: ${({ bottom }) => bottom || 'var(--size-s6)'}!important;
+  @media ${devices.laptop} {
+    margin-bottom: 0 !important;
+  }
 `
 
 const StyledWrapperCol = styled.div`

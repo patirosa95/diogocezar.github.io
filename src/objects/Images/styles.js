@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const StyledImage = styled.img`
   border-radius: 50%;
@@ -18,6 +19,14 @@ const StyledImageItemColumn = styled.img`
   display: block;
   margin-bottom: var(--size-s3);
   border-radius: 50%;
+  @media ${devices.laptopLarge} {
+    height: 100px !important;
+    width: 100px !important;
+  }
+  @media ${devices.laptop} {
+    height: 80px !important;
+    width: 80px !important;
+  }
 `
 
 export { StyledImage, StyledImageItemColumn }
