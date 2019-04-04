@@ -20,7 +20,7 @@ const StyledListContainerFooter = styled.ul`
   float: right;
   width: 100%;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: space-between;
@@ -30,6 +30,12 @@ const StyledListContainerFooter = styled.ul`
     align-content: center;
     align-items: center;
     justify-content: space-around;
+  }
+  @media ${devices.laptop} {
+    float: none;
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 460px;
   }
 `
 
@@ -66,6 +72,24 @@ const StyledListItemFooter = styled.li`
   svg {
     height: 60px;
     width: 60px;
+  }
+  @media ${devices.desktopLarge} {
+    svg {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  @media ${devices.laptopLarge} {
+    svg {
+      height: 45px;
+      width: 45px;
+    }
+  }
+  @media ${devices.laptop} {
+    svg {
+      height: 60px;
+      width: 60px;
+    }
   }
 `
 

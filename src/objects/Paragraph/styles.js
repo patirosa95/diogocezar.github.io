@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { devices } from '../../styles/devices'
 
 const StyledParagraph = styled.p`
   color: ${({ color }) => (color ? `var(--color-${color})` : 'var(--color-white)')}!important;
@@ -34,6 +35,15 @@ const StyledParagraph = styled.p`
   }}
   a {
     color: var(--color-orange) !important;
+  }
+  @media ${devices.desktop} {
+    padding-right: 0 !important;
+    font-size: 1.4rem !important;
+    line-height: 2.3rem !important;
+  }
+  @media ${devices.tablet} {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
   }
 `
 

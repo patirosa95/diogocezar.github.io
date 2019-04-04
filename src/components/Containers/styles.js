@@ -7,6 +7,9 @@ const StyledPage = styled.div`
   float: left;
   padding-bottom: ${({ paddingBottom }) => paddingBottom || 'var(--size-s5)'}!important;
   width: 100%;
+  @media ${devices.tablet} {
+    padding-top: var(--size-s3);
+  }
   ${({ decoration, decorationColor }) => {
     if (decoration) {
       return `

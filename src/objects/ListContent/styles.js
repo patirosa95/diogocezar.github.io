@@ -82,8 +82,6 @@ const StyledListContent = styled.p`
     line-height: 2.1rem;
   }
   @media ${devices.laptop} {
-    font-size: 1rem;
-    line-height: 2rem;
     text-align: center;
     display: ${({ menuMain }) => (menuMain ? 'none' : 'block')};
   }

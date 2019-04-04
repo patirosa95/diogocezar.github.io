@@ -16,23 +16,21 @@ const StyledFooter = styled.footer`
   padding-bottom: var(--size-s5);
   padding-top: var(--size-s5);
   @media ${devices.desktopLarge} {
-    padding-bottom: var(--size-s5);
+    padding-bottom: var(--size-s4);
     padding-top: var(--size-s5);
     padding-left: var(--size-s6);
     padding-right: var(--size-s6);
   }
   @media ${devices.laptopLarge} {
+    padding-bottom: var(--size-s3);
     padding-left: var(--size-s4);
     padding-right: var(--size-s4);
   }
-  @media ${devices.tablet} {
-    padding-bottom: var(--size-s3);
-    padding-top: var(--size-s1);
-    padding-left: var(--size-s1);
-    padding-right: var(--size-s1);
-  }
   @media ${devices.laptop} {
     display: block;
+  }
+  @media ${devices.tablet} {
+    padding-bottom: var(--size-s2);
   }
   &::before,
   &::after {
@@ -109,8 +107,54 @@ const StyledContentFooter = styled.p`
         return '0 25%'
     }
   }};
+  @media ${devices.desktopLarge} {
+    padding: ${({ align }) => {
+    switch (align) {
+      case 'center':
+        return '0 15%'
+      case 'left':
+        return '0 15% 0 0'
+      case 'right':
+        return '0 0 0 15%'
+      default:
+        return '0 15%'
+    }
+  }};
+  }
+  @media ${devices.desktop} {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: ${({ align }) => {
+    switch (align) {
+      case 'center':
+        return '0 10%'
+      case 'left':
+        return '0 10% 0 0'
+      case 'right':
+        return '0 0 0 10%'
+      default:
+        return '0 10%'
+    }
+  }};
+  }
+  @media ${devices.laptop} {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: ${({ align }) => {
+    switch (align) {
+      case 'center':
+        return '0 5%'
+      case 'left':
+        return '0 5% 0 0'
+      case 'right':
+        return '0 0 0 5%'
+      default:
+        return '0 5%'
+    }
+  }};
+  }
   @media ${devices.laptopLarge} {
-    padding: 0 5%;
+    padding: 0;
     text-align: center;
   }
   a {
