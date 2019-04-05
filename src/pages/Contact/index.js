@@ -5,7 +5,7 @@ import { Page, Wrapper } from '../../components/Containers'
 import { ContactAnimated } from '../../styles/animations'
 
 import ChatWithYou from './ChatWithYou'
-import SocialNetworks from './SocialNetWorks'
+import SocialNetworks from './SocialNetworks'
 import ContactForm from './ContactForm'
 
 class Contact extends Component {

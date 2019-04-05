@@ -9,6 +9,8 @@ import { ListTitle, ListContent } from '../../../objects/ListContent'
 import Separator from '../../../objects/Separator'
 import { ButtonList } from '../../../objects/Button'
 
+import Link from '../../../objects/Link'
+
 const MainLectures = () => (
   <Section>
     <Separator number="05" title="Online Demonstrations" type="orange" />
@@ -20,7 +22,9 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/etoo</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="https://projects.diogocezar.com/portfolio/etoo" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -29,7 +33,9 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/brahma-valley</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="https://projects.diogocezar.com/portfolio/brahma-valley" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -38,7 +44,9 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/lacta</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="https://projects.diogocezar.com/portfolio/lacta" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -47,7 +55,9 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/sdv</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="https://projects.diogocezar.com/portfolio/sdv" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -56,7 +66,9 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/volks</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="https://projects.diogocezar.com/portfolio/volks" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -65,7 +77,9 @@ const MainLectures = () => (
             <ListContent>http://boyband.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="http://boyband.com.br" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -74,7 +88,9 @@ const MainLectures = () => (
             <ListContent>http://www.kokar.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="http://www.kokar.com.br" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -83,7 +99,9 @@ const MainLectures = () => (
             <ListContent>https://www.esss.co</ListContent>
           </LeftContentList>
           <RightContentList>
-            <ButtonList>View Demo</ButtonList>
+            <Link href="https://www.esss.co" target="_blank">
+              <ButtonList>View Demo</ButtonList>
+            </Link>
           </RightContentList>
         </ListItem>
       </ListContainer>

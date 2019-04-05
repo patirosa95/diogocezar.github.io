@@ -9,6 +9,7 @@ import Separator from '../../../objects/Separator'
 import { TitleItemColumn } from '../../../objects/Titles'
 import { ImageItemColumn } from '../../../objects/Images'
 import Paragraph from '../../../objects/Paragraph'
+import Link from '../../../objects/Link'
 
 const SocialNetworks = () => (
   <Section>
@@ -20,11 +21,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/github.svg" />
             <TitleItemColumn>GitHub</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Github is the place where i publish my projects and studies as developer.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="https://github.com/diogocezar/" target="_blank">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
         <Col4>
@@ -32,11 +35,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/twitter.svg" />
             <TitleItemColumn>Twitter</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Where i publish toughts and hightlights links of development world.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="https://twitter.com/diogocezar" target="_blank">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
         <Col4>
@@ -44,11 +49,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/instagram.svg" />
             <TitleItemColumn>Instagram</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Where i publish some pictures of my daily routine.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="https://www.instagram.com/diogoctb/" target="_blank">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
         <Col4>
@@ -56,11 +63,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/facebook.svg" />
             <TitleItemColumn>Facebook</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Well, everybody knows what is Facebook.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="https://www.facebook.com/diogocezar" target="_blank">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
       </Row>
@@ -70,11 +79,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/linkedin.svg" />
             <TitleItemColumn>LinkedIn</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              You can found here some professional description of mine.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="https://www.linkedin.com/in/diogocezar/" target="_blank">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
         <Col4>
@@ -82,11 +93,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/skype.svg" />
             <TitleItemColumn>Skype</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              You can call me at Skype too.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="skype:diogoctb?call">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
         <Col4>
@@ -94,11 +107,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/flickr.svg" />
             <TitleItemColumn>Flickr</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Where you can find some public photos.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="https://www.flickr.com/photos/diogocezar" target="_blank">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
         <Col4>
@@ -106,11 +121,13 @@ const SocialNetworks = () => (
             <ImageItemColumn src="/assets/images/social-networks/youtube.svg" />
             <TitleItemColumn>Youtube</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website that people could
+              Where i found some time, i publish on an educational channel on YouTube.
             </Paragraph>
-            <Button type="orange" right="0px">
-              Add Me
-            </Button>
+            <Link href="https://youtube.com/professordiogocezar" target="_blank">
+              <Button type="orange" right="0px">
+                Add Me
+              </Button>
+            </Link>
           </WrapperCol>
         </Col4>
       </Row>

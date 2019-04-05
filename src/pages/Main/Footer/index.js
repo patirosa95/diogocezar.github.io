@@ -17,19 +17,16 @@ const FooterMain = () => (
       <TitleFooter align="left">SOURCE CODE</TitleFooter>
       <ContentFooter align="left">
         This website is open source and you can download{' '}
-        <a
-          href="http://www.github.com/diogocezar/diogocezar.github.io/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Link href="http://www.github.com/diogocezar/diogocezar.github.io/" target="_blank">
           right here.
-        </a>
+        </Link>
       </ContentFooter>
     </ColumnFooter>
     <ColumnFooter>
       <TitleFooter>CONTACT</TitleFooter>
       <ContentFooter>
-        You can contact me through <a href="mailto:diogo@diogocezar.dev">diogo@diogocezar.dev</a>
+        You can contact me through{' '}
+        <Link href="mailto:diogo@diogocezar.dev">diogo@diogocezar.dev</Link>
         <br />
         +55 (43) 933 000 663
       </ContentFooter>
@@ -39,27 +36,27 @@ const FooterMain = () => (
       <ContentFooter align="right">
         <ListContainerFooter>
           <ListItemFooter>
-            <Link href="http://www.diogocezar.dev">
+            <Link href="https://github.com/diogocezar/" target="_blank">
               <InlineSVG src={iconFooterGithub} />
             </Link>
           </ListItemFooter>
           <ListItemFooter>
-            <Link href="http://www.diogocezar.dev">
+            <Link href="https://twitter.com/diogocezar" target="_blank">
               <InlineSVG src={iconFooterTwitter} />
             </Link>
           </ListItemFooter>
           <ListItemFooter>
-            <Link href="http://www.diogocezar.dev">
+            <Link href="https://www.instagram.com/diogoctb/" target="_blank">
               <InlineSVG src={iconFooterInstagram} />
             </Link>
           </ListItemFooter>
           <ListItemFooter>
-            <Link href="http://www.diogocezar.dev">
+            <Link href="https://www.facebook.com/diogocezar" target="_blank">
               <InlineSVG src={iconFooterFacebook} />
             </Link>
           </ListItemFooter>
           <ListItemFooter>
-            <Link href="http://www.diogocezar.dev">
+            <Link href="https://www.linkedin.com/in/diogocezar/" target="_blank">
               <InlineSVG src={iconFooterLinkedIn} />
             </Link>
           </ListItemFooter>

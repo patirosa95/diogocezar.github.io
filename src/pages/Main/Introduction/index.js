@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Link as LinkRoute } from 'react-router-dom'
 import { Section } from '../../../components/Containers'
 import { LeftContent, RightContent } from '../../../components/AlignContent'
 
@@ -8,6 +9,8 @@ import Image from '../../../objects/Images'
 import { Title, SubTitle } from '../../../objects/Titles'
 import { QuotedParagraph } from '../../../objects/Quotes'
 import Button from '../../../objects/Button'
+
+import Link from '../../../objects/Link'
 
 const Introductions = () => (
   <Section>
@@ -23,8 +26,12 @@ const Introductions = () => (
         teacher, talker, developer and technology enthusiastic, I am always searching for new
         challenges.
       </QuotedParagraph>
-      <Button>Read More</Button>
-      <Button>Download Resume</Button>
+      <LinkRoute to="/about">
+        <Button>Read More</Button>
+      </LinkRoute>
+      <Link href="/assets/docs/diogocezar.pdf" target="_blank" download="diogocezar.pdf">
+        <Button>Download Resume</Button>
+      </Link>
     </RightContent>
   </Section>
 )
