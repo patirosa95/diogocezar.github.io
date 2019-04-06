@@ -14,7 +14,7 @@ const Awards = () => (
     <RightContent>
       <ListContainer>
         <ListItem color="purple" link={false}>
-          <ListTitle>14º APPMARKMIDIA</ListTitle>
+          <ListTitle>14º APPMARKMIDIA - 2018</ListTitle>
           <ListSubTitle>CREATIVITY AWARD</ListSubTitle>
           <ListContent>
             2º - Category: Website / Agency:{' '}

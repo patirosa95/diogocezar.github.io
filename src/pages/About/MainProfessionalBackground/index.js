@@ -36,7 +36,7 @@ const MainProfessionalBackground = () => (
         </ListItem>
       </ListContainer>
       <Link href="/assets/docs/diogocezar.pdf" target="_blank" download="diogocezar.pdf">
-        <Button>Download Resume</Button>
+        <Button marginBottom="4rem">Download Resume</Button>
       </Link>
     </RightContent>
   </Section>

@@ -9,9 +9,9 @@ import { Title } from '../../../objects/Titles'
 import { QuotedParagraph } from '../../../objects/Quotes'
 import Link from '../../../objects/Link'
 
-const ChatWithYou = () => (
+const Main = () => (
   <Section>
-    <Separator number="01" title="Contact" />
+    <Separator number="01" title="Keep In Touch" />
     <LeftContent>
       <Image />
     </LeftContent>
@@ -30,4 +30,4 @@ const ChatWithYou = () => (
   </Section>
 )
 
-export default ChatWithYou
+export default Main

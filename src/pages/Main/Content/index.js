@@ -29,14 +29,14 @@ const Content = () => (
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
-          <Link to="/teaching-talks">
-            <ListTitle>TEACHING/TALKS</ListTitle>
+          <Link to="/educational">
+            <ListTitle>EDUCATIONAL</ListTitle>
             <ListContent menuMain={true}>Where i spread the word of development.</ListContent>
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
-          <Link to="/contact">
-            <ListTitle>CONTACT</ListTitle>
+          <Link to="/keep-in-touch">
+            <ListTitle>KEEP IN TOUCH</ListTitle>
             <ListContent menuMain={true}>
               Let’s keep in touch thought social media networks.
             </ListContent>

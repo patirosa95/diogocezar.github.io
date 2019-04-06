@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Page, Wrapper } from '../../components/Containers'
 
-import { TeachingTalksAnimated } from '../../styles/animations'
+import { EducationalAnimated } from '../../styles/animations'
 
 import SpreadTheWorld from './SpreadTheWorld'
 import GitHub from './GitHub'
@@ -13,10 +13,10 @@ import MainEventsParticipations from './MainEventsParticipations'
 import MainPappers from './MainPappers'
 import Monographies from './Monographies'
 
-class About extends Component {
+class Educational extends Component {
   render() {
     return (
-      <TeachingTalksAnimated>
+      <EducationalAnimated>
         <Page color="orange">
           <Wrapper>
             <SpreadTheWorld />
@@ -32,9 +32,9 @@ class About extends Component {
             <Monographies />
           </Wrapper>
         </Page>
-      </TeachingTalksAnimated>
+      </EducationalAnimated>
     )
   }
 }
 
-export default About
+export default Educational

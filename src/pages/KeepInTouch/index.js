@@ -2,26 +2,26 @@ import React, { Component } from 'react'
 
 import { Page, Wrapper } from '../../components/Containers'
 
-import { ContactAnimated } from '../../styles/animations'
+import { KeepInTouchAnimated } from '../../styles/animations'
 
-import ChatWithYou from './ChatWithYou'
+import Main from './Main'
 import SocialNetworks from './SocialNetworks'
 import ContactForm from './ContactForm'
 
-class Contact extends Component {
+class KeepInTouch extends Component {
   render() {
     return (
-      <ContactAnimated>
+      <KeepInTouchAnimated>
         <Page color="purple">
           <Wrapper>
-            <ChatWithYou />
+            <Main />
             <SocialNetworks />
             <ContactForm />
           </Wrapper>
         </Page>
-      </ContactAnimated>
+      </KeepInTouchAnimated>
     )
   }
 }
 
-export default Contact
+export default KeepInTouch

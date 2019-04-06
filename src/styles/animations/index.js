@@ -40,7 +40,7 @@ const AboutAnimated = styled(baseAnimation)`
   }
 `
 
-const ContactAnimated = styled(baseAnimation)`
+const KeepInTouchAnimated = styled(baseAnimation)`
   &.page-enter {
     animation: ${appear} ${time} ease both;
   }
@@ -58,7 +58,16 @@ const PortifolioAnimated = styled(baseAnimation)`
   }
 `
 
-const TeachingTalksAnimated = styled(baseAnimation)`
+const EducationalAnimated = styled(baseAnimation)`
+  &.page-enter {
+    animation: ${appear} ${time} ease both;
+  }
+  &.page-exit {
+    animation: ${disappear} ${time} ease both;
+  }
+`
+
+const NotFoundAnimated = styled(baseAnimation)`
   &.page-enter {
     animation: ${appear} ${time} ease both;
   }
@@ -70,8 +79,9 @@ const TeachingTalksAnimated = styled(baseAnimation)`
 export {
   MainAnimated,
   AboutAnimated,
-  ContactAnimated,
+  KeepInTouchAnimated,
   PortifolioAnimated,
-  TeachingTalksAnimated,
+  EducationalAnimated,
+  NotFoundAnimated,
   Transition,
 }

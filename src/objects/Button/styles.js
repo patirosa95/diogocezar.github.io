@@ -14,7 +14,7 @@ const BaseButton = styled.button`
   font-size: 1rem;
   height: 50px;
   cursor: pointer;
-  margin-bottom: ${({ bottom }) => bottom || 'var(--size-s1)'};
+  margin-bottom: ${({ marginBottom }) => marginBottom || 'var(--size-s1)'};
   min-width: 180px;
   @media ${devices.laptopLarge} {
     margin-bottom: 10px !important;

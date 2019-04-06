@@ -16,7 +16,6 @@ const Generic = createGlobalStyle`
     text-rendering: optimizeLegibility!important;
     -webkit-font-smoothing: antialiased!important;
     background-color: var(--color-purple-dark)!important;
-    height: 100%!important;
 	}
 `
 

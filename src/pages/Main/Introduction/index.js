@@ -23,7 +23,7 @@ const Introductions = () => (
       <SubTitle color="purple-dark">Worked with Brazilian Big Players</SubTitle>
       <QuotedParagraph first="Biography">
         I’m just a guy that knows that knows nothing. And it’s exactly what makes me moving on. As
-        teacher, talker, developer and technology enthusiastic, I am always searching for new
+        teacher, talker, developer and technology enthusiastic, i am always searching for new
         challenges.
       </QuotedParagraph>
       <LinkRoute to="/about">

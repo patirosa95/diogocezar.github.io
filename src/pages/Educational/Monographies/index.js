@@ -8,16 +8,31 @@ import { ListTitle, ListSubTitle, ListContent } from '../../../objects/ListConte
 
 import Separator from '../../../objects/Separator'
 import Button from '../../../objects/Button'
+import Link from '../../../objects/Link'
 
-const MainPappers = () => (
+const Monographies = () => (
   <Section>
-    <Separator number="06" title="Main Pappers" />
+    <Separator number="07" title="Monographies" />
     <RightContent>
       <ListContainer>
         <ListItem link={false}>
           <LeftContentList>
-            <ListTitle>WEBMEDIA - 2007</ListTitle>
-            <ListSubTitle type="white">GRAMADO - RS</ListSubTitle>
+            <ListTitle>MASTER DEGREE</ListTitle>
+            <ListSubTitle type="white">UFPR - CURITIBA</ListSubTitle>
+            <ListContent>
+              Guidance Strategy for Systems of Hypermedia by Collaborative Navigation.
+            </ListContent>
+          </LeftContentList>
+          <RightContentList>
+            <Link href="http://bit.ly/2UCB2v4" target="_blank">
+              <Button type="orange">Download</Button>
+            </Link>
+          </RightContentList>
+        </ListItem>
+        <ListItem link={false}>
+          <LeftContentList>
+            <ListTitle>GRADUATION</ListTitle>
+            <ListSubTitle type="white">UTFPR - CORNÉLIO PROCÓPIO</ListSubTitle>
             <ListContent>
               Guidance Strategy for Systems of Hypermedia by Collaborative Navigation.
             </ListContent>
@@ -30,4 +45,4 @@ const MainPappers = () => (
     </RightContent>
   </Section>
 )
-export default MainPappers
+export default Monographies

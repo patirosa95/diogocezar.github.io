@@ -11,7 +11,7 @@ import Paragraph from '../../../objects/Paragraph'
 
 const SpreadTheWorld = () => (
   <Section>
-    <Separator number="01" title="Teaching/Talks" type="orange" />
+    <Separator number="01" title="Educational" type="orange" />
     <LeftContent>
       <Image />
     </LeftContent>

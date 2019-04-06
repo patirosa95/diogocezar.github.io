@@ -21,6 +21,7 @@ const StyledCol1 = Col => styled(Col)``
 
 const StyledRow = Row => styled(Row)`
   margin-bottom: ${({ bottom }) => bottom || 'var(--size-s6)'}!important;
+  margin-top: ${({ top }) => top || '0px'}!important;
   @media ${devices.laptop} {
     margin-bottom: 0 !important;
   }

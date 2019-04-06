@@ -8,6 +8,7 @@ import { ListTitle, ListSubTitle, ListContent } from '../../../objects/ListConte
 
 import Separator from '../../../objects/Separator'
 import Button from '../../../objects/Button'
+import Link from '../../../objects/Link'
 
 const MainLectures = () => (
   <Section>
@@ -21,7 +22,9 @@ const MainLectures = () => (
             <ListContent>Minicourse of ReactJS - 4 hours.</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>Download</Button>
+            <Link href="http://bit.ly/2CTQQ52" target="_blank">
+              <Button>Download</Button>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -31,7 +34,21 @@ const MainLectures = () => (
             <ListContent>Git and GitHub - 4 hours.</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>Download</Button>
+            <Link href="http://bit.ly/2BL72VD" target="_blank">
+              <Button>Download</Button>
+            </Link>
+          </RightContentList>
+        </ListItem>
+        <ListItem type="orange" link={false}>
+          <LeftContentList>
+            <ListTitle type="orange">UTFWARE - 2017</ListTitle>
+            <ListSubTitle type="orange">UTFPR - CORNÉLIO PROCÓPIO - PR</ListSubTitle>
+            <ListContent>Sass - 4 hours.</ListContent>
+          </LeftContentList>
+          <RightContentList>
+            <Link href="http://bit.ly/2LrSYQm" target="_blank">
+              <Button>Download</Button>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -41,7 +58,9 @@ const MainLectures = () => (
             <ListContent>Why JavaScript - 40 min.</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button>Download</Button>
+            <Link href="http://bit.ly/2BKKPab" target="_blank">
+              <Button>Download</Button>
+            </Link>
           </RightContentList>
         </ListItem>
         <ListItem type="orange" link={false}>
@@ -52,9 +71,6 @@ const MainLectures = () => (
               Multidisciplinary integration between design and web programming. 10 hours.
             </ListContent>
           </LeftContentList>
-          <RightContentList>
-            <Button>Download</Button>
-          </RightContentList>
         </ListItem>
       </ListContainer>
     </RightContent>

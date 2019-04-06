@@ -3,10 +3,11 @@ import { HashRouter as MainRouter, Switch, Route } from 'react-router-dom'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import About from '../pages/About'
-import Contact from '../pages/Contact'
+import KeepInTouch from '../pages/KeepInTouch'
 import Main from '../pages/Main'
 import Portfolio from '../pages/Portfolio'
-import TeachingTalks from '../pages/TeachingTalks'
+import Educational from '../pages/Educational'
+import NotFound from '../pages/NotFound'
 
 import Settings from '../styles/settings'
 import Generic from '../styles/generic'
@@ -31,9 +32,10 @@ class Router extends Component {
                       <Switch location={location}>
                         <Route exact path="/" component={Main} />
                         <Route exact path="/about" component={About} />
-                        <Route exact path="/contact" component={Contact} />
+                        <Route exact path="/keep-in-touch" component={KeepInTouch} />
                         <Route exact path="/portfolio" component={Portfolio} />
-                        <Route exact path="/teaching-talks" component={TeachingTalks} />
+                        <Route exact path="/educational" component={Educational} />
+                        <Route exact path="*" component={NotFound} />
                       </Switch>
                     </Fragment>
                   </CSSTransition>
