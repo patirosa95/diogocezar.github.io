@@ -61,8 +61,8 @@ const MainCustomers = () => (
             <ImageItemColumn src="/assets/images/main-customers/volkswagen.svg" />
             <TitleItemColumn>Volkswagen</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Created Front-End layout for Wolkswagen accessories. That includes checkout system,
+              internal pages and reponsive layout.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -71,8 +71,8 @@ const MainCustomers = () => (
             <ImageItemColumn src="/assets/images/main-customers/skol.svg" />
             <TitleItemColumn>Skol</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Developed a Front-End hotsite for an app that could map urban places where you could
+              workout.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -81,8 +81,7 @@ const MainCustomers = () => (
             <ImageItemColumn src="/assets/images/main-customers/gillette.svg" />
             <TitleItemColumn>Gillette</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              For Gillette i developed a simple introduction website for allow WiFi connections.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -91,8 +90,7 @@ const MainCustomers = () => (
             <ImageItemColumn src="/assets/images/main-customers/lacta.svg" />
             <TitleItemColumn>Lacta</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Developed an animated hotsite for an promotional action of Lacta company.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -103,8 +101,8 @@ const MainCustomers = () => (
             <ImageItemColumn src="/assets/images/main-customers/subway.svg" />
             <TitleItemColumn>Subway</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Developed an entire front-end system where the people could creat their own advertise
+              vídeos of Subway.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -113,8 +111,8 @@ const MainCustomers = () => (
             <ImageItemColumn src="/assets/images/main-customers/recco.svg" />
             <TitleItemColumn>Recco</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              For Recco, we create two products: Anna Hickiman HotSite and a Blog for feminine
+              fashion.
             </Paragraph>
           </WrapperCol>
         </Col4>

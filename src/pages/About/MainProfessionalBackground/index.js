@@ -7,6 +7,7 @@ import { ListTitle, ListSubTitle, ListContent } from '../../../objects/ListConte
 
 import Separator from '../../../objects/Separator'
 import Button from '../../../objects/Button'
+import Link from '../../../objects/Link'
 
 const MainProfessionalBackground = () => (
   <Section>
@@ -34,7 +35,9 @@ const MainProfessionalBackground = () => (
           </ListContent>
         </ListItem>
       </ListContainer>
-      <Button>Download Resume</Button>
+      <Link href="/assets/docs/diogocezar.pdf" target="_blank" download="diogocezar.pdf">
+        <Button>Download Resume</Button>
+      </Link>
     </RightContent>
   </Section>
 )

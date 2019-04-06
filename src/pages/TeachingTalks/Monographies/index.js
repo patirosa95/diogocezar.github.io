@@ -16,8 +16,8 @@ const Monographies = () => (
       <ListContainer>
         <ListItem link={false}>
           <LeftContentList>
-            <ListTitle>GRADUATION</ListTitle>
-            <ListSubTitle type="white">UTFPR - CORNÉLIO PROCÓPIO</ListSubTitle>
+            <ListTitle>MASTER DEGREE</ListTitle>
+            <ListSubTitle type="white">UFPR - CURITIBA</ListSubTitle>
             <ListContent>
               Guidance Strategy for Systems of Hypermedia by Collaborative Navigation.
             </ListContent>
@@ -28,8 +28,8 @@ const Monographies = () => (
         </ListItem>
         <ListItem link={false}>
           <LeftContentList>
-            <ListTitle>MASTER DEGREE</ListTitle>
-            <ListSubTitle type="white">UFPR - CURITIBA</ListSubTitle>
+            <ListTitle>GRADUATION</ListTitle>
+            <ListSubTitle type="white">UTFPR - CORNÉLIO PROCÓPIO</ListSubTitle>
             <ListContent>
               Guidance Strategy for Systems of Hypermedia by Collaborative Navigation.
             </ListContent>

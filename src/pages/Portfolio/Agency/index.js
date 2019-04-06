@@ -19,8 +19,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/esss.svg" />
             <TitleItemColumn>ESSS</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Created all Front-End and have been part of Back-End of entire website.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -29,8 +28,8 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/products-of-tomorrow.jpg" />
             <TitleItemColumn>Products of Tomorrow</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Promotional action of Africa Agency where i could manage website with some advanced
+              features.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -39,8 +38,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/hardera.svg" />
             <TitleItemColumn>Hardera</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Developed all website for this wood company.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -49,8 +47,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/kokar.svg" />
             <TitleItemColumn>Kokar</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Developed all solution for this paint company.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -61,8 +58,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/angie.svg" />
             <TitleItemColumn>Angie</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Developed all website for childs dental products.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -71,8 +67,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/boyband.svg" />
             <TitleItemColumn>Boyband</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
-              Developed front-end of a website where people could choose if Eto’o soccer player
-              would go to play one game on Botafogo or Comercial club.
+              Developed all website for this Agency.
             </Paragraph>
           </WrapperCol>
         </Col4>
