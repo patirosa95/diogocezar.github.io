@@ -12,6 +12,9 @@ const Base = createGlobalStyle`
   .has-error .ant-input{
     border-color: var(--color-orange)!important;
   }
+  a{
+    text-decoration: none!important;
+  }
 `
 
 export default Base

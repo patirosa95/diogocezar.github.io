@@ -27,10 +27,10 @@ const Introductions = () => (
         challenges.
       </QuotedParagraph>
       <LinkRoute to="/about">
-        <Button>Read More</Button>
+        <Button type="purple">Read More</Button>
       </LinkRoute>
       <Link href="/assets/docs/diogocezar.pdf" target="_blank" download="diogocezar.pdf">
-        <Button>Download Resume</Button>
+        <Button type="purple">Download Resume</Button>
       </Link>
     </RightContent>
   </Section>

@@ -3,6 +3,7 @@ import { createGlobalStyle } from 'styled-components'
 const Settings = createGlobalStyle`
   :root {
     --color-white: #f2f2f2;
+    --color-white-pure: #fff;
     --color-gray: #999999;
     --color-purple-dark: #312450;
     --color-purple-darker: #241b3a;

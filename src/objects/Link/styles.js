@@ -2,6 +2,18 @@ import styled from 'styled-components'
 
 const StyledLink = styled.a`
   font-style: italic;
+  ${({ buttonCenter }) => {
+    if (buttonCenter) {
+      return `
+        position: relative;
+        float: left;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      `
+    }
+  }}
   color: ${({ type }) => {
     switch (type) {
       case 'orange':

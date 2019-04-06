@@ -23,7 +23,7 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Github is the place where i publish my projects and studies as developer.
             </Paragraph>
-            <Link href="https://github.com/diogocezar/" target="_blank">
+            <Link href="https://github.com/diogocezar/" buttonCenter={true} target="_blank">
               <Button type="orange" right="0px">
                 Add Me
               </Button>
@@ -37,7 +37,7 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Where i publish toughts and hightlights links of development world.
             </Paragraph>
-            <Link href="https://twitter.com/diogocezar" target="_blank">
+            <Link href="https://twitter.com/diogocezar" buttonCenter={true} target="_blank">
               <Button type="orange" right="0px">
                 Add Me
               </Button>
@@ -51,7 +51,7 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Where i publish some pictures of my daily routine.
             </Paragraph>
-            <Link href="https://www.instagram.com/diogoctb/" target="_blank">
+            <Link href="https://www.instagram.com/diogoctb/" buttonCenter={true} target="_blank">
               <Button type="orange" right="0px">
                 Add Me
               </Button>
@@ -65,7 +65,7 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Well, everybody knows what is Facebook.
             </Paragraph>
-            <Link href="https://www.facebook.com/diogocezar" target="_blank">
+            <Link href="https://www.facebook.com/diogocezar" buttonCenter={true} target="_blank">
               <Button type="orange" right="0px">
                 Add Me
               </Button>
@@ -81,7 +81,11 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               You can found here some professional description of mine.
             </Paragraph>
-            <Link href="https://www.linkedin.com/in/diogocezar/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/diogocezar/"
+              buttonCenter={true}
+              target="_blank"
+            >
               <Button type="orange" right="0px">
                 Add Me
               </Button>
@@ -95,7 +99,7 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               You can call me at Skype too.
             </Paragraph>
-            <Link href="skype:diogoctb?call">
+            <Link href="skype:diogoctb?call" buttonCenter={true}>
               <Button type="orange" right="0px">
                 Add Me
               </Button>
@@ -109,7 +113,11 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Where you can find some public photos.
             </Paragraph>
-            <Link href="https://www.flickr.com/photos/diogocezar" target="_blank">
+            <Link
+              href="https://www.flickr.com/photos/diogocezar"
+              buttonCenter={true}
+              target="_blank"
+            >
               <Button type="orange" right="0px">
                 Add Me
               </Button>
@@ -123,7 +131,11 @@ const SocialNetworks = () => (
             <Paragraph size="medium" bottom="1rem" padding="0 10%">
               Where i found some time, i publish on an educational channel on YouTube.
             </Paragraph>
-            <Link href="https://youtube.com/professordiogocezar" target="_blank">
+            <Link
+              href="https://youtube.com/professordiogocezar"
+              buttonCenter={true}
+              target="_blank"
+            >
               <Button type="orange" right="0px">
                 Add Me
               </Button>

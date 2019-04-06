@@ -15,7 +15,7 @@ import { validateEmail, validateName, validateMessage } from '../../../helpers'
 
 class ContactForm extends Component {
   sendForm = () => {
-    const { validateFields } = this.props.form
+    const { validateFields, resetFields } = this.props.form
     validateFields((errors, values) => {
       if (errors) {
         global.console.log('Houveram erros')
@@ -23,6 +23,7 @@ class ContactForm extends Component {
         return
       }
       global.console.log(values)
+      resetFields()
     })
   }
 
