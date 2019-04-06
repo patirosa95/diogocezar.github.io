@@ -7,7 +7,7 @@ const InputStyled = StyledInput(InputAntd)
 const TextAreaStyled = StyledTextArea(InputAntd.TextArea)
 
 const FormItem = props => <FormItemStyled {...props} />
-const Input = props => <InputStyled {...props} />
-const TextArea = props => <TextAreaStyled {...props} />
+const Input = React.forwardRef((props, ref) => <InputStyled {...props} ref={ref} />)
+const TextArea = React.forwardRef((props, ref) => <TextAreaStyled {...props} ref={ref} />)
 
 export { FormItem, TextArea, Input }

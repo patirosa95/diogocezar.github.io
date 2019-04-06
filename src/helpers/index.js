@@ -2,33 +2,47 @@ const isValidEmail = str => !str.match(/^\w+([.-]?\w+)+@\w+([.:]?\w+)+(\.[a-zA-Z
 
 const isValidName = (str) => {
   if (str.length > 0) {
-    return str.match(/^\d+$/)
+    return str.match(/^\d+$/) || str.length < 3
   }
   return true
 }
 
+const isValidMessage = str => str.length < 10
+
 const validateEmail = (rule, value, callback) => {
   if (!value) {
-    callback('Field empty')
+    callback('Email is empty')
     return
   }
   const err = []
   if (isValidEmail(value)) {
-    err.push('Please, tell me your e-mail.')
+    err.push('Not valid e-mail')
   }
   callback(err)
 }
 
 const validateName = (rule, value, callback) => {
   if (!value) {
-    callback('Field empty')
+    callback('Name is empty')
     return
   }
   const err = []
   if (isValidName(value)) {
-    err.push('Please, you need to fill your name here.')
+    err.push('Not valid name')
   }
   callback(err)
 }
 
-export { validateEmail, validateName }
+const validateMessage = (rule, value, callback) => {
+  if (!value) {
+    callback('Message is empty')
+    return
+  }
+  const err = []
+  if (isValidMessage(value)) {
+    err.push('Not valid message')
+  }
+  callback(err)
+}
+
+export { validateEmail, validateName, validateMessage }

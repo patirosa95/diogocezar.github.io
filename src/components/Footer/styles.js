@@ -86,7 +86,7 @@ const StyledTitleFooter = styled.h3`
   }
 `
 
-const StyledContentFooter = styled.p`
+const StyledContentFooter = styled.div`
   color: var(--color-white);
   font-family: 'AGaramondPro';
   font-style: normal;

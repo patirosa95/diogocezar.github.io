@@ -11,7 +11,7 @@ import Paragraph from '../../../objects/Paragraph'
 import { FormItem, Input, TextArea } from '../../../objects/Form'
 import Button from '../../../objects/Button'
 
-import { validateEmail, validateName } from '../../../helpers'
+import { validateEmail, validateName, validateMessage } from '../../../helpers'
 
 class ContactForm extends Component {
   sendForm = () => {
@@ -68,7 +68,13 @@ class ContactForm extends Component {
             <Col1>
               <FormItem label="Message" colon={false}>
                 {getFieldDecorator('message', {
-                  rules: [{ required: true, message: 'Please, fill your message here.' }],
+                  rules: [
+                    {
+                      required: true,
+                      message: 'Please, fill your message here.',
+                      validator: validateMessage,
+                    },
+                  ],
                 })(<TextArea />)}
               </FormItem>
             </Col1>
