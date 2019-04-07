@@ -10,6 +10,8 @@ import Musical from './Musical'
 import Agency from './Agency'
 import Demos from './Demos'
 
+import { ButtonBack } from '../../objects/Button'
+
 class Contact extends Component {
   render() {
     return (
@@ -27,6 +29,7 @@ class Contact extends Component {
             <Demos />
           </Wrapper>
         </Page>
+        <ButtonBack />
       </PortifolioAnimated>
     )
   }

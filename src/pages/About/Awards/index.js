@@ -17,7 +17,7 @@ const Awards = () => (
           <ListTitle>14º APPMARKMIDIA - 2018</ListTitle>
           <ListSubTitle>CREATIVITY AWARD</ListSubTitle>
           <ListContent>
-            2º - Category: Website / Agency:{' '}
+            Second Place - Category: Website / Agency:{' '}
             <Link color="orange" href="http://www.boyband.com.br" target="_blank">
               Boyband
             </Link>{' '}

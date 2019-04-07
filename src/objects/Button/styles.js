@@ -114,4 +114,29 @@ const StyledButtonList = styled(BaseButton)`
   }
 `
 
-export { StyledButton, StyledButtonList }
+const StyledButtonBackContainer = styled.div`
+  position: fixed;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.3) 80%);
+  height: 120px;
+  bottom: 0;
+  z-index: 9998 !important;
+  .display-true {
+    transform: translateX(-50%) translateY(0) !important;
+  }
+  .display-false {
+    transform: translateX(-50%) translateY(100px) !important;
+  }
+`
+
+const StyledButtonBack = styled(BaseButton)`
+  position: fixed !important;
+  bottom: 0px !important;
+  left: 50% !important;
+  transition: all 0.15s ease-in !important;
+  z-index: 9999 !important;
+`
+
+export {
+  StyledButton, StyledButtonList, StyledButtonBack, StyledButtonBackContainer,
+}

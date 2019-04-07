@@ -8,6 +8,8 @@ import Main from './Main'
 import SocialNetworks from './SocialNetworks'
 import ContactForm from './ContactForm'
 
+import { ButtonBack } from '../../objects/Button'
+
 class KeepInTouch extends Component {
   render() {
     return (
@@ -19,6 +21,7 @@ class KeepInTouch extends Component {
             <ContactForm />
           </Wrapper>
         </Page>
+        <ButtonBack />
       </KeepInTouchAnimated>
     )
   }

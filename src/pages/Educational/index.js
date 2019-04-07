@@ -12,6 +12,7 @@ import MainLectures from './MainLectures'
 import MainEventsParticipations from './MainEventsParticipations'
 import MainPappers from './MainPappers'
 import Monographies from './Monographies'
+import { ButtonBack } from '../../objects/Button'
 
 class Educational extends Component {
   render() {
@@ -32,6 +33,7 @@ class Educational extends Component {
             <Monographies />
           </Wrapper>
         </Page>
+        <ButtonBack />
       </EducationalAnimated>
     )
   }
