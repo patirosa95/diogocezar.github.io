@@ -7,8 +7,12 @@ const Generic = createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
 	}
+  ::selection {
+    background-color: var(--color-purple-dark)!important;
+    color: var(--color-white)!important;
+  }
 	html{
-
+    scroll-behavior: smooth!important;
   }
 	body {
     font-family: 'AGaramondPro'!important;

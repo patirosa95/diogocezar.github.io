@@ -36,6 +36,8 @@ const StyledParagraph = styled.p`
   a {
     color: var(--color-orange) !important;
   }
+  min-height: ${({ minheight }) => minheight || 'auto'} !important;
+  text-align: ${({ align }) => align || 'left'} !important;
   @media ${devices.desktop} {
     padding-right: 0 !important;
     padding-left: 0 !important;

@@ -12,6 +12,9 @@ const Base = createGlobalStyle`
   .has-error .ant-input{
     border-color: var(--color-orange)!important;
   }
+  .ant-form-item-label{
+    margin-top: 15px!important;
+  }
   a{
     text-decoration: none!important;
   }

@@ -9,7 +9,7 @@ import {
   iconFooterInstagram,
   iconFooterFacebook,
   iconFooterLinkedIn,
-} from './Icons'
+} from '../../../data'
 
 const FooterMain = () => (
   <Footer>

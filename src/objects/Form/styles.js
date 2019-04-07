@@ -27,7 +27,7 @@ const StyledInput = Input => styled(Input)`
   color: var(--color-purple-dark) !important;
   font-family: 'AkzidenzGroteskBE' !important;
   font-weight: bold !important;
-  font-size: 1rem !important;
+  font-size: 1.3rem !important;
 `
 
 const StyledTextArea = TextArea => styled(TextArea)`

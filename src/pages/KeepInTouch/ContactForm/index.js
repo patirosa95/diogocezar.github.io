@@ -33,7 +33,7 @@ class ContactForm extends Component {
       <Section>
         <Separator number="03" title="Contact Form" />
         <FullContent>
-          <Paragraph first="Let's keep in contact" hasQuotedMarks={false}>
+          <Paragraph hasQuotedMarks={false} align="center" padding="0">
             You can send-me a message thought this form. Please let-me know your name and e-mail to
             prepare a cool response.
           </Paragraph>

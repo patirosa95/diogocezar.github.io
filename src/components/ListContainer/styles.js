@@ -73,6 +73,18 @@ const StyledListItemFooter = styled.li`
     height: 60px;
     width: 60px;
   }
+  svg #bg{
+    ${Transition}
+  }
+  svg #icon, svg .icon{
+    ${Transition}
+  }
+  &:hover svg #bg{
+    fill: var(--color-orange);
+  }
+  &:hover svg #icon, &:hover svg .icon{
+    stroke: var(--color-white);
+  }
   @media ${devices.desktopLarge} {
     svg {
       height: 50px;
