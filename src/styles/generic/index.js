@@ -11,9 +11,6 @@ const Generic = createGlobalStyle`
     background-color: var(--color-purple-dark)!important;
     color: var(--color-white)!important;
   }
-	html{
-    scroll-behavior: smooth!important;
-  }
 	body {
     font-family: 'AGaramondPro'!important;
     font-size: 14px!important;

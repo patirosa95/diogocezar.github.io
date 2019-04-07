@@ -2,7 +2,6 @@ import styled from 'styled-components'
 import { devices } from '../../styles/devices'
 
 const BaseButton = styled.button`
-  border: none;
   padding: 16px 26px;
   border-radius: 35px;
   text-transform: uppercase;

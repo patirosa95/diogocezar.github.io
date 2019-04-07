@@ -22,7 +22,7 @@ const MainLectures = () => (
             <ListContent>Minicourse of ReactJS - 4 hours.</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://bit.ly/2CTQQ52" target="_blank">
+            <Link href="http://bit.ly/2CTQQ52" target="_blank" buttonCenter={true}>
               <Button>Download</Button>
             </Link>
           </RightContentList>
@@ -34,7 +34,7 @@ const MainLectures = () => (
             <ListContent>Git and GitHub - 4 hours.</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://bit.ly/2BL72VD" target="_blank">
+            <Link href="http://bit.ly/2BL72VD" target="_blank" buttonCenter={true}>
               <Button>Download</Button>
             </Link>
           </RightContentList>
@@ -46,7 +46,7 @@ const MainLectures = () => (
             <ListContent>Sass - 4 hours.</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://bit.ly/2LrSYQm" target="_blank">
+            <Link href="http://bit.ly/2LrSYQm" target="_blank" buttonCenter={true}>
               <Button>Download</Button>
             </Link>
           </RightContentList>
@@ -58,7 +58,7 @@ const MainLectures = () => (
             <ListContent>Why JavaScript - 40 min.</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://bit.ly/2BKKPab" target="_blank">
+            <Link href="http://bit.ly/2BKKPab" target="_blank" buttonCenter={true}>
               <Button>Download</Button>
             </Link>
           </RightContentList>

@@ -22,7 +22,11 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/etoo</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="https://projects.diogocezar.com/portfolio/etoo" target="_blank">
+            <Link
+              href="https://projects.diogocezar.com/portfolio/etoo"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -33,7 +37,11 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/brahma-valley</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="https://projects.diogocezar.com/portfolio/brahma-valley" target="_blank">
+            <Link
+              href="https://projects.diogocezar.com/portfolio/brahma-valley"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -44,7 +52,11 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/lacta</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="https://projects.diogocezar.com/portfolio/lacta" target="_blank">
+            <Link
+              href="https://projects.diogocezar.com/portfolio/lacta"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -55,7 +67,11 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/sdv</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="https://projects.diogocezar.com/portfolio/sdv" target="_blank">
+            <Link
+              href="https://projects.diogocezar.com/portfolio/sdv"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -66,7 +82,11 @@ const MainLectures = () => (
             <ListContent>https://projects.diogocezar.com/portfolio/volks</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="https://projects.diogocezar.com/portfolio/volks" target="_blank">
+            <Link
+              href="https://projects.diogocezar.com/portfolio/volks"
+              target="_blank"
+              buttonCenter={true}
+            >
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -77,7 +97,7 @@ const MainLectures = () => (
             <ListContent>http://boyband.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://boyband.com.br" target="_blank">
+            <Link href="http://boyband.com.br" target="_blank" buttonCenter={true}>
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -88,7 +108,7 @@ const MainLectures = () => (
             <ListContent>http://www.kokar.com.br</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://www.kokar.com.br" target="_blank">
+            <Link href="http://www.kokar.com.br" target="_blank" buttonCenter={true}>
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>
@@ -99,7 +119,7 @@ const MainLectures = () => (
             <ListContent>https://www.esss.co</ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="https://www.esss.co" target="_blank">
+            <Link href="https://www.esss.co" target="_blank" buttonCenter={true}>
               <ButtonList>View Demo</ButtonList>
             </Link>
           </RightContentList>

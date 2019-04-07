@@ -60,8 +60,8 @@ const StyledWrapper = styled.div`
   @media ${devices.desktopLarge} {
     padding-bottom: var(--size-s5);
     padding-top: var(--size-s5);
-    padding-left: var(--size-s6);
-    padding-right: var(--size-s6);
+    padding-left: var(--size-s5);
+    padding-right: var(--size-s5);
   }
   @media ${devices.laptopLarge} {
     padding-left: var(--size-s4);
@@ -70,8 +70,8 @@ const StyledWrapper = styled.div`
   @media ${devices.tablet} {
     padding-bottom: var(--size-s3);
     padding-top: var(--size-s1);
-    padding-left: var(--size-s1);
-    padding-right: var(--size-s1);
+    padding-left: var(--size-s2);
+    padding-right: var(--size-s2);
   }
 `
 

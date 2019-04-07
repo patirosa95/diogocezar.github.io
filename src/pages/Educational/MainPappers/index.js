@@ -24,7 +24,7 @@ const MainPappers = () => (
             </ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://bit.ly/2UEVvz6" target="_blank">
+            <Link href="http://bit.ly/2UEVvz6" target="_blank" buttonCenter={true}>
               <Button type="orange">Download</Button>
             </Link>
           </RightContentList>

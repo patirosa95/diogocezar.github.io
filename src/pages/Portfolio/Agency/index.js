@@ -17,8 +17,8 @@ const Agency = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/agency/esss.svg" />
-            <TitleItemColumn>ESSS</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">ESSS</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Created all Front-End and have been part of Back-End of entire website.
             </Paragraph>
           </WrapperCol>
@@ -26,8 +26,8 @@ const Agency = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/agency/products-of-tomorrow.jpg" />
-            <TitleItemColumn>Products of Tomorrow</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Products of Tomorrow</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Promotional action of Africa Agency where i could manage website with some advanced
               features.
             </Paragraph>
@@ -36,8 +36,8 @@ const Agency = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/agency/hardera.svg" />
-            <TitleItemColumn>Hardera</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Hardera</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed all website for this wood company.
             </Paragraph>
           </WrapperCol>
@@ -45,8 +45,8 @@ const Agency = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/agency/kokar.svg" />
-            <TitleItemColumn>Kokar</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Kokar</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed all solution for this paint company.
             </Paragraph>
           </WrapperCol>
@@ -56,8 +56,8 @@ const Agency = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/agency/angie.svg" />
-            <TitleItemColumn>Angie</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Angie</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed all website for childs dental products.
             </Paragraph>
           </WrapperCol>
@@ -65,8 +65,8 @@ const Agency = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/agency/boyband.svg" />
-            <TitleItemColumn>Boyband</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Boyband</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed all website for this Agency.
             </Paragraph>
           </WrapperCol>

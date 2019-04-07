@@ -17,8 +17,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/twitter.svg" />
-            <TitleItemColumn>Twitter</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Twitter</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Front-end development of a website where people could choose if Eto’o soccer player
               would go to play one game on Botafogo or Comercial club.
             </Paragraph>
@@ -27,8 +27,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/brahma.svg" />
-            <TitleItemColumn>Brahma</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Brahma</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Front-end development of Brahma Valley 2015 edition. Brahma Valley is a music festival
               with 3 simultaneous stage, with the biggest Sertanejo musicians of Brazil.
             </Paragraph>
@@ -37,8 +37,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/visa.svg" />
-            <TitleItemColumn>Visa</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Visa</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed a web game system, where pair of peoples could disput witch one was ables to
               use Visa credit card to shop some product in less time.
             </Paragraph>
@@ -47,8 +47,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/sonho-de-valsa.svg" />
-            <TitleItemColumn>Sonho de Valsa</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Sonho de Valsa</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Created a Front-End of a portal of romantic reciples. The intent was that the couple
               could cook together.
             </Paragraph>
@@ -59,8 +59,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/volkswagen.svg" />
-            <TitleItemColumn>Volkswagen</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Volkswagen</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Created Front-End layout for Wolkswagen accessories. That includes checkout system,
               internal pages and reponsive layout.
             </Paragraph>
@@ -69,8 +69,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/skol.svg" />
-            <TitleItemColumn>Skol</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Skol</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed a Front-End hotsite for an app that could map urban places where you could
               workout.
             </Paragraph>
@@ -79,8 +79,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/gillette.svg" />
-            <TitleItemColumn>Gillette</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Gillette</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               For Gillette i developed a simple introduction website for allow WiFi connections.
             </Paragraph>
           </WrapperCol>
@@ -88,8 +88,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/lacta.svg" />
-            <TitleItemColumn>Lacta</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Lacta</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed an animated hotsite for an promotional action of Lacta company.
             </Paragraph>
           </WrapperCol>
@@ -99,8 +99,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/subway.svg" />
-            <TitleItemColumn>Subway</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Subway</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               Developed an entire front-end system where the people could creat their own advertise
               vídeos of Subway.
             </Paragraph>
@@ -109,8 +109,8 @@ const MainCustomers = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/main-customers/recco.svg" />
-            <TitleItemColumn>Recco</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%">
+            <TitleItemColumn color="orange">Recco</TitleItemColumn>
+            <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
               For Recco, we create two products: Anna Hickiman HotSite and a Blog for feminine
               fashion.
             </Paragraph>

@@ -24,7 +24,7 @@ const Monographies = () => (
             </ListContent>
           </LeftContentList>
           <RightContentList>
-            <Link href="http://bit.ly/2UCB2v4" target="_blank">
+            <Link href="http://bit.ly/2UCB2v4" target="_blank" buttonCenter={true}>
               <Button type="orange">Download</Button>
             </Link>
           </RightContentList>
@@ -38,7 +38,9 @@ const Monographies = () => (
             </ListContent>
           </LeftContentList>
           <RightContentList>
-            <Button type="orange">Download</Button>
+            <Link href="http://bit.ly/2Uxr5yY" target="_blank" buttonCenter={true}>
+              <Button type="orange">Download</Button>
+            </Link>
           </RightContentList>
         </ListItem>
       </ListContainer>

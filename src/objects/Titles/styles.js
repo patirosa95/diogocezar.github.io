@@ -53,7 +53,7 @@ const StyledTitleItemColumn = styled.h3`
   text-transform: uppercase;
   text-align: center;
   line-height: 2rem;
-  color: var(--color-white);
+  color: ${({ color }) => (color ? `var(--color-${color})` : 'var(--color-white)')};
   margin-bottom: var(--size-s1);
 `
 
