@@ -82,7 +82,7 @@ class ContactForm extends Component {
           </Row>
           <Row bottom="1.3rem" top="2rem">
             <CenterContent>
-              <Button type="orange" onClick={this.sendForm}>
+              <Button type="orange" onClick={this.sendForm} right="0">
                 Send
               </Button>
             </CenterContent>

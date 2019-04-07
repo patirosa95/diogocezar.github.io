@@ -122,19 +122,21 @@ const StyledButtonBackContainer = styled.div`
   bottom: 0;
   z-index: 9998 !important;
   .display-true {
-    transform: translateX(-50%) translateY(0) !important;
+    transform: translateX(calc(-50%)) translateY(0) !important;
   }
   .display-false {
-    transform: translateX(-50%) translateY(100px) !important;
+    transform: translateX(calc(-50%)) translateY(100px) !important;
   }
 `
 
 const StyledButtonBack = styled(BaseButton)`
   position: fixed !important;
-  bottom: 0px !important;
+  bottom: 15px !important;
   left: 50% !important;
   transition: all 0.15s ease-in !important;
   z-index: 9999 !important;
+  width: 180px;
+  margin: 0 !important;
 `
 
 export {
