@@ -17,6 +17,18 @@ const MainLectures = () => (
       <ListContainer>
         <ListItem type="orange" link={false}>
           <LeftContentList>
+            <ListTitle type="orange">DACOMP - 2019</ListTitle>
+            <ListSubTitle type="orange">UTFPR - CORNÉLIO PROCÓPIO - PR</ListSubTitle>
+            <ListContent>Minicourse of ReactJS - 4 hours.</ListContent>
+          </LeftContentList>
+          <RightContentList>
+            <Link href="http://bit.ly/2Ixgdcc" target="_blank" buttonCenter={true}>
+              <Button>Download</Button>
+            </Link>
+          </RightContentList>
+        </ListItem>
+        <ListItem type="orange" link={false}>
+          <LeftContentList>
             <ListTitle type="orange">SECOMP - 2018</ListTitle>
             <ListSubTitle type="orange">UTFPR - CORNÉLIO PROCÓPIO - PR</ListSubTitle>
             <ListContent>Minicourse of ReactJS - 4 hours.</ListContent>
