@@ -40,6 +40,15 @@ const AboutAnimated = styled(baseAnimation)`
   }
 `
 
+const BlogAnimated = styled(baseAnimation)`
+  &.page-enter {
+    animation: ${appear} ${time} ease both;
+  }
+  &.page-exit {
+    animation: ${disappear} ${time} ease both;
+  }
+`
+
 const KeepInTouchAnimated = styled(baseAnimation)`
   &.page-enter {
     animation: ${appear} ${time} ease both;
@@ -79,6 +88,7 @@ const NotFoundAnimated = styled(baseAnimation)`
 export {
   MainAnimated,
   AboutAnimated,
+  BlogAnimated,
   KeepInTouchAnimated,
   PortifolioAnimated,
   EducationalAnimated,

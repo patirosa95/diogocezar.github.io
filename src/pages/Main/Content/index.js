@@ -22,6 +22,14 @@ const Content = () => (
           </ListContent>
         </ListItem>
         <ListItem hoverColor="purple-dark">
+          <Link to="/blog/1">
+            <ListMenu>BLOG</ListMenu>
+          </Link>
+          <ListContent menuMain={true}>
+            Just old thinks.
+          </ListContent>
+        </ListItem>
+        <ListItem hoverColor="purple-dark">
           <Link to="/portfolio">
             <ListMenu>PORTFÓLIO</ListMenu>
             <ListContent menuMain={true}>List of my main jobs.</ListContent>
