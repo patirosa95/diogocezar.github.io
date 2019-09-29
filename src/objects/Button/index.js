@@ -33,9 +33,9 @@ class ButtonBack extends Component {
 
   render() {
     return (
-      <StyledButtonBackContainer>
+      <StyledButtonBackContainer className={`display-${this.state.display}`}>
         <LinkRoute to="/">
-          <StyledButtonBack className={`display-${this.state.display}`}>
+          <StyledButtonBack>
             Back to Home
           </StyledButtonBack>
         </LinkRoute>

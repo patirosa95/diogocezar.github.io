@@ -115,28 +115,27 @@ const StyledButtonList = styled(BaseButton)`
 `
 
 const StyledButtonBackContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   width: 100%;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.3) 80%);
-  height: 120px;
-  bottom: 0;
+  height: 70px;
+  background-color: var(--color-purple);
+  top: 0;
+  left: 0;
+  transition: all 0.15s ease-in !important;
   z-index: 9998 !important;
-  .display-true {
-    transform: translateX(calc(-50%)) translateY(0) !important;
+  &.display-true {
+    opacity: 100;
   }
-  .display-false {
-    transform: translateX(calc(-50%)) translateY(100px) !important;
+  &.display-false {
+    opacity: 0;
   }
 `
 
 const StyledButtonBack = styled(BaseButton)`
-  position: fixed !important;
-  bottom: 15px !important;
-  left: 50% !important;
-  transition: all 0.15s ease-in !important;
-  z-index: 9999 !important;
-  width: 180px;
-  margin: 0 !important;
+
 `
 
 export {
