@@ -54,7 +54,7 @@ class Details extends Component {
   render() {
     return (
       <Section>
-        <Separator number="01" title="Veja o Post"/>
+        <Separator number="01" title="Post Details"/>
         <LeftContent>
           <Image />
         </LeftContent>
