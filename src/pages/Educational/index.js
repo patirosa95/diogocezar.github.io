@@ -33,7 +33,7 @@ class Educational extends Component {
             <Monographies />
           </Wrapper>
         </Page>
-        <ButtonBack />
+        <ButtonBack color="orange"/>
       </EducationalAnimated>
     )
   }

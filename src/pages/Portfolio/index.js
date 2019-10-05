@@ -29,7 +29,7 @@ class Contact extends Component {
             <Demos />
           </Wrapper>
         </Page>
-        <ButtonBack />
+        <ButtonBack color="orange"/>
       </PortifolioAnimated>
     )
   }

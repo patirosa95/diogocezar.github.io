@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 import { Link as LinkRoute } from 'react-router-dom'
 import debounce from 'lodash/debounce'
+import InlineSVG from 'svg-inline-react'
 import {
   StyledButton,
   StyledButtonList,
   StyledButtonBack,
   StyledButtonBackContainer,
 } from './styles'
+import {
+  arrow,
+} from '../../data'
 
 const Button = props => <StyledButton {...props}>{props.children}</StyledButton>
 
@@ -33,13 +37,13 @@ class ButtonBack extends Component {
 
   render() {
     return (
-      <StyledButtonBackContainer className={`display-${this.state.display}`}>
-        <LinkRoute to="/">
-          <StyledButtonBack>
-            Back to Home
-          </StyledButtonBack>
-        </LinkRoute>
-      </StyledButtonBackContainer>
+      <LinkRoute to="/">
+        <StyledButtonBackContainer className={`display-${this.state.display}`} color={this.props.color}>
+            <StyledButtonBack>
+              <InlineSVG src={arrow} />
+            </StyledButtonBack>
+        </StyledButtonBackContainer>
+      </LinkRoute>
     )
   }
 }

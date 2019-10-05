@@ -2,6 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 const Settings = createGlobalStyle`
   :root {
+    --color-black: #2b243c;
     --color-white: #f2f2f2;
     --color-white-pure: #fff;
     --color-gray: #999999;

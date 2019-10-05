@@ -6,7 +6,7 @@ import { KeepInTouchAnimated } from '../../styles/animations'
 
 import Main from './Main'
 import SocialNetworks from './SocialNetworks'
-import ContactForm from './ContactForm'
+// import ContactForm from './ContactForm'
 
 import { ButtonBack } from '../../objects/Button'
 
@@ -18,10 +18,10 @@ class KeepInTouch extends Component {
           <Wrapper>
             <Main />
             <SocialNetworks />
-            <ContactForm />
+            {/* <ContactForm /> */}
           </Wrapper>
         </Page>
-        <ButtonBack />
+        <ButtonBack color="orange"/>
       </KeepInTouchAnimated>
     )
   }

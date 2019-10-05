@@ -31,7 +31,7 @@ class About extends Component {
             <Awards />
           </Wrapper>
         </Page>
-        <ButtonBack />
+        <ButtonBack color="orange"/>
       </AboutAnimated>
     )
   }

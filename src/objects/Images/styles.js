@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { devices } from '../../styles/devices'
 
 const StyledImage = styled.img`
+  display:none!important;
   border-radius: 50%;
   height: 250px;
   width: 250px;
@@ -23,6 +24,7 @@ const StyledImageItemColumn = styled.img`
   display: block;
   margin-bottom: var(--size-s3);
   border-radius: 50%;
+  box-shadow: 2px 0px 10px 2px rgba(0,0,0,0.1);
   @media ${devices.laptopLarge} {
     height: 100px !important;
     width: 100px !important;
