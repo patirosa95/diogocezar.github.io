@@ -36,7 +36,7 @@ class ContactForm extends Component {
   render() {
     const { getFieldDecorator } = this.props.form
     return (
-      <Section>
+      <Section isLast="true">
         <Separator number="03" title="Contact Form" />
         <FullContent>
           <Paragraph hasQuotedMarks={false} align="center" padding="0">

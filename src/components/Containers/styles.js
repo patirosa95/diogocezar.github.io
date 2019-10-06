@@ -49,7 +49,7 @@ const StyledSection = styled.section`
   padding-bottom: var(--size-s4);
   @media ${devices.laptop} {
     &:last-child{
-      padding-bottom: var(--size-s1);
+      padding-bottom: ${({ isLast }) => (isLast ? 'var(--size-s1)' : 'var(--size-s4)')}!important;
     }
   }
 `
