@@ -143,6 +143,9 @@ const StyledListMenu = styled.div`
       font-size: 1.3rem;
       width: 70%;
     }
+    @media ${devices.tablet} {
+      width: 80%;
+    }
   }
   span::before {
     position: absolute;
