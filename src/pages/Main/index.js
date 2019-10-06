@@ -19,7 +19,7 @@ class Main extends Component {
             <Content />
             <Conclusion />
           </Wrapper>
-          <FooterMain />
+          <FooterMain isMain="true" />
         </Page>
       </MainAnimated>
     )

@@ -14,6 +14,8 @@ import MainPappers from './MainPappers'
 import Monographies from './Monographies'
 import { ButtonBack } from '../../objects/Button'
 
+import FooterMain from '../Main/Footer'
+
 class Educational extends Component {
   render() {
     return (
@@ -33,6 +35,7 @@ class Educational extends Component {
             <Monographies />
           </Wrapper>
         </Page>
+        <FooterMain />
         <ButtonBack color="orange"/>
       </EducationalAnimated>
     )

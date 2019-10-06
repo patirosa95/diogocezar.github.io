@@ -8,6 +8,8 @@ import Details from './Details'
 
 import { ButtonBack } from '../../objects/Button'
 
+import FooterMain from '../Main/Footer'
+
 class Blog extends Component {
   render() {
     return (
@@ -17,6 +19,7 @@ class Blog extends Component {
             <Posts></Posts>
           </Wrapper>
         </Page>
+        <FooterMain />
         <ButtonBack />
       </BlogAnimated>
     )
