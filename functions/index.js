@@ -28,7 +28,6 @@ module.exports.sendMail = functions.https.onRequest((req, res) => {
     } = req.body
     const from = '"Diogo Cezar - Portfolio" <diogo@diogocezar.dev>';
     const html = loadTemplate('contact', {name, email, message})
-    console.log(html)
     const emailConfigs = {
       from,
       to,

@@ -13,10 +13,10 @@ const StyledFooter = styled.footer`
   display: flex;
   padding-left: var(--size-s6);
   padding-right: var(--size-s6);
-  padding-bottom: var(--size-s5);
+  padding-bottom: var(--size-s2);
   padding-top: var(--size-s5);
   @media ${devices.desktopLarge} {
-    padding-bottom: var(--size-s4);
+    padding-bottom: var(--size-s2);
     padding-top: var(--size-s5);
     padding-left: var(--size-s6);
     padding-right: var(--size-s6);
@@ -30,7 +30,7 @@ const StyledFooter = styled.footer`
     display: block;
   }
   @media ${devices.tablet} {
-    padding-bottom: var(--size-s2);
+    padding-bottom: var(--size-s1);
   }
   &::before,
   &::after {
@@ -67,7 +67,10 @@ const StyledColumnFooter = styled.div`
     position: relative;
     float: left;
     width: 100% !important;
-    margin-bottom: var(--size-s5);
+    margin-bottom: var(--size-s3);
+    &:last-child{
+      margin-bottom: 0px;
+    }
   }
 `
 

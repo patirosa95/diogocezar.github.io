@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  StyledListTitle, StyledListMenu, StyledListSubTitle, StyledListContent,
+  StyledListTitle, StyledListMenu, StyledListSubTitle, StyledListContent, StyledListContentMain,
 } from './styles'
 
 const ListMenu = props => (
@@ -19,6 +19,10 @@ const ListContent = ({ children, ...props }) => (
   <StyledListContent {...props}>{children}</StyledListContent>
 )
 
+const ListContentMain = ({ children, ...props }) => (
+  <StyledListContentMain {...props}>{children}</StyledListContentMain>
+)
+
 export {
-  ListTitle, ListSubTitle, ListContent, ListMenu,
+  ListTitle, ListSubTitle, ListContent, ListMenu, ListContentMain,
 }

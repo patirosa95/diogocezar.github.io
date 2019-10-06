@@ -31,7 +31,7 @@ class ButtonBack extends Component {
 
   handleScroll = () => {
     this.setState({
-      display: window.scrollY > 500,
+      display: window.scrollY > 600,
     })
   }
 

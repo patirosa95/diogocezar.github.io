@@ -14,7 +14,11 @@ const Interests = () => (
       <ListContainer>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">WEB DEVELOPMENT</ListTitle>
-          <ListContent>All related to development for web.</ListContent>
+          <ListContent>Front and Back-End, specially with NodeJS and ReactJS.</ListContent>
+        </ListItem>
+        <ListItem type="orange" link={false}>
+          <ListTitle type="orange">DEVOPS</ListTitle>
+          <ListContent>Culture of CI/CD.</ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">EVOLUTIONARY COMPUTING</ListTitle>

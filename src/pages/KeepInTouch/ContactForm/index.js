@@ -28,7 +28,7 @@ class ContactForm extends Component {
         resetFields()
         this.setState({ successMessage: 'Thanks, message succefully sent!' })
       } else {
-        this.setState({ successMessage: 'Sorry, we could not send your message. Try again later.' })
+        this.setState({ successMessage: 'Sorry, we could not send your message.' })
       }
     })
   }

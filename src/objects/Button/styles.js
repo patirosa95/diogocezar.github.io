@@ -134,10 +134,10 @@ const StyledButtonBackContainer = styled.div`
     }
   }};
   top: 30px;
-  left: 8%;
+  left: 8vw;
   transition: all 0.15s ease-in !important;
   z-index: 9998 !important;
-  box-shadow: 2px 0px 15px 2px rgba(0,0,0,0.2), 0px 0px 50px 50px rgba(0,0,0,0.1);
+  box-shadow: 2px 0px 15px 2px rgba(0,0,0,0.2);
   &.display-true {
     display: flex;
     opacity: 100;
@@ -180,17 +180,19 @@ const StyledButtonBackContainer = styled.div`
     }
   }
   @media ${devices.laptopLarge} {
-    left: 5%;
+    left: 5vw;
   }
   @media ${devices.desktop} {
-    left: 4%;
+    left: 4vw;
   }
   @media ${devices.laptopLarge} {
-    left: 5%;
+    left: 5vw;
   }
   @media ${devices.laptop} {
     width: 80px;
     height: 80px;
+    left: 5vw;
+    top: 5vw;
     svg{
       top: 6px;
       left: 0;

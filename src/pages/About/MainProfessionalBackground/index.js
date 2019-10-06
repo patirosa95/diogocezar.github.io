@@ -16,7 +16,7 @@ const MainProfessionalBackground = () => (
       <ListContainer>
         <ListItem type="orange" link={false}>
           <ListTitle type="orange">MEIFÁCIL ~ NEON BANK</ListTitle>
-          <ListSubTitle type="orange">2018~NOW / SÊNIOR WEB DEVELOPER</ListSubTitle>
+          <ListSubTitle type="orange">2018~NOW / NODEJS MANAGER AND SÊNIOR FULLSTACK DEVELOPER</ListSubTitle>
           <ListContent>AWS, Microservices, NodeJS, ReactJS.</ListContent>
         </ListItem>
         <ListItem type="orange" link={false}>
