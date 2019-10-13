@@ -20,7 +20,7 @@ class Blog extends Component {
           </Wrapper>
         </Page>
         <FooterMain />
-        <ButtonBack />
+        <ButtonBack color="orange"/>
       </BlogAnimated>
     )
   }
@@ -35,7 +35,7 @@ class BlogDetails extends Component {
             <Details></Details>
           </Wrapper>
         </Page>
-        <ButtonBack />
+        <ButtonBack color="orange" />
       </BlogAnimated>
     )
   }

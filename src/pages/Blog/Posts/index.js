@@ -1,15 +1,18 @@
 import React, { Component, Fragment } from 'react'
 
 import { withRouter, Link } from 'react-router-dom'
+import moment from 'moment'
+import 'moment/locale/pt-br'
 import { Section } from '../../../components/Containers'
 import { LeftContent, RightContent } from '../../../components/AlignContent'
 
-import Separator from '../../../objects/Separator'
+import Separator, { LineSeparator } from '../../../objects/Separator'
 import Image from '../../../objects/Images'
-import { Title } from '../../../objects/Titles'
+import { Title, SubTitle } from '../../../objects/Titles'
 import Paragraph from '../../../objects/Paragraph'
 import BlogService from '../../../services/BlogService'
 import Button from '../../../objects/Button'
+
 
 class Posts extends Component {
   state = {
@@ -43,10 +46,12 @@ class Posts extends Component {
       return (
         <Fragment key={post.id}>
           <Title type="internal" color="orange" dangerouslySetInnerHTML={{ __html: post.title.rendered }}></Title>
+          <SubTitle color="white" dangerouslySetInnerHTML={{ __html: moment(post.date).calendar() }}></SubTitle>
           <Paragraph dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }}></Paragraph>
-          <Link to={`./details/${post.id}/${this.state.page}`}>
-            <Button>Veja Mais</Button>
+          <Link to={`./details/${post.slug}/${this.state.page}`}>
+            <Button color="purple">Veja Mais</Button>
           </Link>
+          <LineSeparator></LineSeparator>
         </Fragment>
       )
     }

@@ -2,6 +2,9 @@ import styled from 'styled-components'
 import { devices } from '../../styles/devices'
 
 const StyledTitle = styled.h2`
+  position: relative;
+  float: left;
+  width: 100%;
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
   font-size: ${({ type }) => (type === 'internal' ? '6rem' : '3.5rem')};
@@ -26,6 +29,9 @@ const StyledTitle = styled.h2`
 `
 
 const StyledSubTitle = styled.h3`
+  position: relative;
+  float: left;
+  width: 100%;
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
   font-size: 2.7rem;
@@ -46,6 +52,8 @@ const StyledSubTitle = styled.h3`
 `
 
 const StyledTitleItemColumn = styled.h3`
+  position: relative;
+  float: left;
   width: 100%;
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;

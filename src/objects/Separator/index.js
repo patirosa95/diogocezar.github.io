@@ -1,5 +1,5 @@
 import React from 'react'
-import StyledSeparator from './styles'
+import { StyledSeparator, StyledLineSeparator } from './styles'
 
 const Separator = ({ number, title, type }) => (
   <StyledSeparator type={type}>
@@ -10,4 +10,9 @@ const Separator = ({ number, title, type }) => (
   </StyledSeparator>
 )
 
+const LineSeparator = () => (
+  <StyledLineSeparator></StyledLineSeparator>
+)
+
 export default Separator
+export { LineSeparator }

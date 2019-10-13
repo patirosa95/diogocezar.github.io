@@ -21,14 +21,14 @@ const Content = () => (
             Detailed page about me, interests, education, professional, hobbies, skills and awards.
           </ListContentMain>
         </ListItem>
-        {/* <ListItem hoverColor="purple-dark">
+        <ListItem hoverColor="purple-dark">
           <Link to="/blog/1">
             <ListMenu>BLOG</ListMenu>
           </Link>
           <ListContentMain menuMain={true}>
-            Just old thinks.
+            Just old thinks (portuguese only).
           </ListContentMain>
-        </ListItem> */}
+        </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/portfolio">
             <ListMenu>PORTFÓLIO</ListMenu>

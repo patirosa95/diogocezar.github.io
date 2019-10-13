@@ -23,10 +23,10 @@ class BlogService {
     }
   }
 
-  async getPost(id) {
-    if (!id) throw new Error('You need pass an id.')
+  async getPost(slug) {
+    if (!slug) throw new Error('You need pass a slug.')
     let { url } = ApiBlog
-    url = `${url}posts/?include=${id}`
+    url = `${url}posts/?slug=${slug}`
     try {
       const result = await axios({
         url,

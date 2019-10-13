@@ -4,6 +4,8 @@ import { withRouter, Link } from 'react-router-dom'
 import { Section } from '../../../components/Containers'
 import { LeftContent, RightContent } from '../../../components/AlignContent'
 
+import Container from './styles'
+
 import Separator from '../../../objects/Separator'
 import Image from '../../../objects/Images'
 import { Title } from '../../../objects/Titles'
@@ -20,13 +22,13 @@ class Details extends Component {
   }
 
   async componentDidMount() {
-    const { id, source } = this.props.match.params
+    const { slug, source } = this.props.match.params
     this.setState({ source })
-    this.loadContent(id)
+    this.loadContent(slug)
   }
 
-  loadContent = async (id) => {
-    const posts = await BlogService.getPost(id)
+  loadContent = async (slug) => {
+    const posts = await BlogService.getPost(slug)
     const { result: data, total, totalPages } = posts
 
     this.setState({
@@ -54,13 +56,15 @@ class Details extends Component {
   render() {
     return (
       <Section>
-        <Separator number="01" title="Post Details"/>
-        <LeftContent>
-          <Image />
-        </LeftContent>
-        <RightContent>
-          {(!this.state.loading && this.renderPost()) || this.contentLoading()}
-        </RightContent>
+        <Container>
+          <Separator number="01" title="Post Details"/>
+          <LeftContent>
+            <Image />
+          </LeftContent>
+          <RightContent>
+            {(!this.state.loading && this.renderPost()) || this.contentLoading()}
+          </RightContent>
+        </Container>
       </Section>
     )
   }

@@ -34,7 +34,7 @@ class Router extends Component {
                         <Route exact path="/" component={Main} />
                         <Route exact path="/about" component={About} />
                         <Route exact path="/blog/:page" component={Blog} />
-                        <Route exact path="/blog/details/:id/:source" component={BlogDetails} />
+                        <Route exact path="/blog/details/:slug/:source" component={BlogDetails} />
                         <Route exact path="/keep-in-touch" component={KeepInTouch} />
                         <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/educational" component={Educational} />

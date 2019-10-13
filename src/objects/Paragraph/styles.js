@@ -2,6 +2,9 @@ import styled from 'styled-components'
 import { devices } from '../../styles/devices'
 
 const StyledParagraph = styled.p`
+  position: relative;
+  float: left;
+  width: 100%;
   color: ${({ color }) => (color ? `var(--color-${color})` : 'var(--color-white)')}!important;
   font-family: ${({ font }) => (font === 'sans-serif' ? 'AkzidenzGroteskBE' : 'AGaramondPro')}!important;
   font-style: normal;
