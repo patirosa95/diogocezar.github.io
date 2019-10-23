@@ -1,6 +1,4 @@
-const version = '0.0.1'
-const cacheName = `diogocezar.dev-${version}`
-
+const cacheName = 'diogocezar.dev'
 self.addEventListener('install', (e) => {
   e.waitUntil(
     caches.open(cacheName).then(cache => cache.addAll([
