@@ -5,8 +5,8 @@
   "background_color": "#241b3a",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "https://diogocezar.dev",
-  "start_url": ".",
+  "scope": "/",
+  "start_url": "/",
   "icons": [
     {
       "src": "assets/images/icons/icon-72x72.png",
