@@ -4,7 +4,7 @@ self.addEventListener('install', (e) => {
     caches.open(cacheName).then(cache => cache.addAll([
       '/',
       '/index.html',
-      '/assets/docs/diogoCezar.pdf',
+      '/assets/docs/diogocezar.pdf',
       '/assets/fonts/AGaramondPro-Italic.eot',
       '/assets/fonts/AGaramondPro-Italic.otf',
       '/assets/fonts/AGaramondPro-Italic.svg',
