@@ -17,6 +17,18 @@ const MainLectures = () => (
       <ListContainer>
         <ListItem type="orange" link={false}>
           <LeftContentList>
+            <ListTitle type="orange">ROCKETSEAT EXPERIENCE - 2019</ListTitle>
+            <ListSubTitle type="orange">SÃO PAULO EXPO - SÃO PAULO - SP</ListSubTitle>
+            <ListContent>Minicourse NodeJS with Tests - 60 min.</ListContent>
+          </LeftContentList>
+          <RightContentList>
+            <Link href="http://bit.ly/2q9zMlU" target="_blank" buttonCenter={true}>
+              <Button>Download</Button>
+            </Link>
+          </RightContentList>
+        </ListItem>
+        <ListItem type="orange" link={false}>
+          <LeftContentList>
             <ListTitle type="orange">GDG LONDRINA MEETUP #7 - 2019</ListTitle>
             <ListSubTitle type="orange">UNICESUMAR - LONDRINA - PR</ListSubTitle>
             <ListContent>Talk About The Future of Education - 30~45 min.</ListContent>
