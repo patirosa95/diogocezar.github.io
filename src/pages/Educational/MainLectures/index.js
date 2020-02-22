@@ -33,7 +33,7 @@ const MainLectures = () => (
           </LeftContentList>
           <RightContentList>
             <Link
-              href="http://bit.ly/32l12N0"
+              href="http://bit.ly/32l12N0``"
               target="_blank"
               buttonCenter={true}
             >
