@@ -1,5 +1,13 @@
 import React from 'react'
-import { StyledListTitle, StyledListSubTitle, StyledListContent } from './styles'
+import {
+  StyledListTitle, StyledListMenu, StyledListSubTitle, StyledListContent, StyledListContentMain,
+} from './styles'
+
+const ListMenu = props => (
+  <StyledListMenu {...props}>
+    <span data-hover={props.children}>{props.children}</span>
+  </StyledListMenu>
+)
 
 const ListTitle = ({ children, ...props }) => (
   <StyledListTitle {...props}>{children}</StyledListTitle>
@@ -11,4 +19,10 @@ const ListContent = ({ children, ...props }) => (
   <StyledListContent {...props}>{children}</StyledListContent>
 )
 
-export { ListTitle, ListSubTitle, ListContent }
+const ListContentMain = ({ children, ...props }) => (
+  <StyledListContentMain {...props}>{children}</StyledListContentMain>
+)
+
+export {
+  ListTitle, ListSubTitle, ListContent, ListMenu, ListContentMain,
+}

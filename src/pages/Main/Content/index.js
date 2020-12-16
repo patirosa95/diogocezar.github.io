@@ -6,7 +6,7 @@ import { RightContent } from '../../../components/AlignContent'
 import { ListContainer, ListItem } from '../../../components/ListContainer'
 
 import Separator from '../../../objects/Separator'
-import { ListTitle, ListContent } from '../../../objects/ListContent'
+import { ListContentMain, ListMenu } from '../../../objects/ListContent'
 
 const Content = () => (
   <Section>
@@ -15,31 +15,38 @@ const Content = () => (
       <ListContainer>
         <ListItem hoverColor="purple-dark">
           <Link to="/about">
-            <ListTitle>ABOUT ME</ListTitle>
-            <ListContent menuMain={true}>
-              Detailed page about me, interests, education, professional, hobbies, skills and
-              awards.
-            </ListContent>
+            <ListMenu>ABOUT ME</ListMenu>
           </Link>
+          <ListContentMain menuMain={true}>
+            Detailed page about me, interests, education, professional, hobbies, skills and awards.
+          </ListContentMain>
+        </ListItem>
+        <ListItem hoverColor="purple-dark">
+          <Link to="/blog/1">
+            <ListMenu>BLOG</ListMenu>
+          </Link>
+          <ListContentMain menuMain={true}>
+            Just old thinks (portuguese only).
+          </ListContentMain>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/portfolio">
-            <ListTitle>PORTFÓLIO</ListTitle>
-            <ListContent menuMain={true}>List of my main jobs.</ListContent>
+            <ListMenu>PORTFÓLIO</ListMenu>
+            <ListContentMain menuMain={true}>List of my main jobs.</ListContentMain>
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/educational">
-            <ListTitle>EDUCATIONAL</ListTitle>
-            <ListContent menuMain={true}>Where i spread the word of development.</ListContent>
+            <ListMenu>EDUCATIONAL</ListMenu>
+            <ListContentMain menuMain={true}>Where i spread the word of development.</ListContentMain>
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/keep-in-touch">
-            <ListTitle>KEEP IN TOUCH</ListTitle>
-            <ListContent menuMain={true}>
+            <ListMenu>KEEP IN TOUCH</ListMenu>
+            <ListContentMain menuMain={true}>
               Let’s keep in touch thought social media networks.
-            </ListContent>
+            </ListContentMain>
           </Link>
         </ListItem>
       </ListContainer>

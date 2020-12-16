@@ -35,4 +35,20 @@ const StyledSeparator = styled.header`
   }
 `
 
-export default StyledSeparator
+const StyledLineSeparator = styled.div`
+  position: relative;
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+  border-bottom: 1px solid
+    ${({ type }) => (type === 'orange' ? 'rgba(49, 36, 80, 0.36)' : 'rgba(153, 153, 153, 0.36)')};
+  padding-bottom: 5px;
+  margin-bottom: var(--size-s5);
+  @media ${devices.laptop} {
+    padding-bottom: 5px;
+    margin-bottom: var(--size-s3);
+  }
+
+`
+
+export { StyledSeparator, StyledLineSeparator }

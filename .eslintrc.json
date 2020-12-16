@@ -20,28 +20,12 @@
     "import/prefer-default-export": "off",
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
+    "class-methods-use-this": "off",
     "no-unused-vars": [
       1,
       {
         "vars": "local",
         "args": "none"
-      }
-    ],
-    "class-methods-use-this": [
-      "error",
-      {
-        "exceptMethods": [
-          "render",
-          "getInitialState",
-          "getDefaultProps",
-          "componentWillMount",
-          "componentDidMount",
-          "componentWillReceiveProps",
-          "shouldComponentUpdate",
-          "componentWillUpdate",
-          "componentDidUpdate",
-          "componentWillUnmount"
-        ]
       }
     ],
     "no-unused-expressions": [

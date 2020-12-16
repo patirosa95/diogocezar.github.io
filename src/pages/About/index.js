@@ -10,6 +10,8 @@ import MainProfessionalBackground from './MainProfessionalBackground'
 import Hobbies from './Hobbies'
 import Skills from './Skills'
 import Awards from './Awards'
+import { ButtonBack } from '../../objects/Button'
+import FooterMain from '../Main/Footer'
 
 class About extends Component {
   render() {
@@ -30,6 +32,8 @@ class About extends Component {
             <Awards />
           </Wrapper>
         </Page>
+        <FooterMain />
+        <ButtonBack color="orange"/>
       </AboutAnimated>
     )
   }

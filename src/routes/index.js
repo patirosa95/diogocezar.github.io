@@ -3,6 +3,7 @@ import { HashRouter as MainRouter, Switch, Route } from 'react-router-dom'
 import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import About from '../pages/About'
+import { Blog, BlogDetails } from '../pages/Blog'
 import KeepInTouch from '../pages/KeepInTouch'
 import Main from '../pages/Main'
 import Portfolio from '../pages/Portfolio'
@@ -32,6 +33,8 @@ class Router extends Component {
                       <Switch location={location}>
                         <Route exact path="/" component={Main} />
                         <Route exact path="/about" component={About} />
+                        <Route exact path="/blog/:page" component={Blog} />
+                        <Route exact path="/blog/details/:slug/:source" component={BlogDetails} />
                         <Route exact path="/keep-in-touch" component={KeepInTouch} />
                         <Route exact path="/portfolio" component={Portfolio} />
                         <Route exact path="/educational" component={Educational} />

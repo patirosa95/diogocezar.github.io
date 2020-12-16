@@ -10,6 +10,10 @@ import Musical from './Musical'
 import Agency from './Agency'
 import Demos from './Demos'
 
+import { ButtonBack } from '../../objects/Button'
+
+import FooterMain from '../Main/Footer'
+
 class Contact extends Component {
   render() {
     return (
@@ -27,6 +31,8 @@ class Contact extends Component {
             <Demos />
           </Wrapper>
         </Page>
+        <FooterMain />
+        <ButtonBack color="orange"/>
       </PortifolioAnimated>
     )
   }

@@ -13,11 +13,10 @@ const StyledFooter = styled.footer`
   display: flex;
   padding-left: var(--size-s6);
   padding-right: var(--size-s6);
-  padding-bottom: var(--size-s5);
-  padding-top: var(--size-s5);
+  padding-bottom: var(--size-s2);
+  padding-top: ${({ isMain }) => (isMain ? 'var(--size-s5)' : 'var(--size-s1)')}!important;
   @media ${devices.desktopLarge} {
-    padding-bottom: var(--size-s4);
-    padding-top: var(--size-s5);
+    padding-bottom: var(--size-s2);
     padding-left: var(--size-s6);
     padding-right: var(--size-s6);
   }
@@ -30,7 +29,7 @@ const StyledFooter = styled.footer`
     display: block;
   }
   @media ${devices.tablet} {
-    padding-bottom: var(--size-s2);
+    padding-bottom: var(--size-s1);
   }
   &::before,
   &::after {
@@ -46,7 +45,7 @@ const StyledFooter = styled.footer`
     background-size: 50px 100%;
   }
 
-  &::before {
+  /* &::before {
     top: -90px;
     background-image: -webkit-gradient(
       linear,
@@ -58,7 +57,7 @@ const StyledFooter = styled.footer`
     background-image: linear-gradient(315deg, var(--color-purple-dark) 25%, transparent 25%),
       linear-gradient(45deg, var(--color-purple-dark) 25%, transparent 25%);
     background-position: 50%;
-  }
+  } */
 `
 
 const StyledColumnFooter = styled.div`
@@ -67,7 +66,10 @@ const StyledColumnFooter = styled.div`
     position: relative;
     float: left;
     width: 100% !important;
-    margin-bottom: var(--size-s5);
+    margin-bottom: var(--size-s3);
+    &:last-child{
+      margin-bottom: 0px;
+    }
   }
 `
 

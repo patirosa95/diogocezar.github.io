@@ -13,24 +13,30 @@ import Button from '../../../objects/Button'
 
 import { validateEmail, validateName, validateMessage } from '../../../helpers'
 
+import ContactService from '../../../services/ContactService'
+
 class ContactForm extends Component {
-  sendForm = () => {
+  state = {
+    successMessage: null,
+  }
+
+  sendForm = async () => {
     const { validateFields, resetFields } = this.props.form
-    validateFields((errors, values) => {
-      if (errors) {
-        global.console.log('Houveram erros')
-        global.console.log(errors)
-        return
+    validateFields(async (errors, values) => {
+      if (!errors) {
+        await ContactService.sendMail(values)
+        resetFields()
+        this.setState({ successMessage: 'Thanks, message succefully sent!' })
+      } else {
+        this.setState({ successMessage: 'Sorry, we could not send your message.' })
       }
-      global.console.log(values)
-      resetFields()
     })
   }
 
   render() {
     const { getFieldDecorator } = this.props.form
     return (
-      <Section>
+      <Section isLast="true">
         <Separator number="03" title="Contact Form" />
         <FullContent>
           <Paragraph hasQuotedMarks={false} align="center" padding="0">
@@ -81,8 +87,11 @@ class ContactForm extends Component {
             </Col1>
           </Row>
           <Row bottom="1.3rem" top="2rem">
+            {this.state.successMessage && <Paragraph hasQuotedMarks={false} align="center" padding="0">
+              {this.state.successMessage}
+            </Paragraph>}
             <CenterContent>
-              <Button type="orange" onClick={this.sendForm}>
+              <Button type="orange" onClick={this.sendForm} right="0">
                 Send
               </Button>
             </CenterContent>

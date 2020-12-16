@@ -19,8 +19,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/github.svg" />
-            <TitleItemColumn>GitHub</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">GitHub</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               Github is the place where i publish my projects and studies as developer.
             </Paragraph>
             <Link href="https://github.com/diogocezar/" buttonCenter={true} target="_blank">
@@ -33,8 +33,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/twitter.svg" />
-            <TitleItemColumn>Twitter</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">Twitter</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               Where i publish toughts and hightlights links of development world.
             </Paragraph>
             <Link href="https://twitter.com/diogocezar" buttonCenter={true} target="_blank">
@@ -47,8 +47,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/instagram.svg" />
-            <TitleItemColumn>Instagram</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">Instagram</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               Where i publish some pictures of my daily routine.
             </Paragraph>
             <Link href="https://www.instagram.com/diogoctb/" buttonCenter={true} target="_blank">
@@ -61,8 +61,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/facebook.svg" />
-            <TitleItemColumn>Facebook</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">Facebook</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               Well, everybody knows what is Facebook.
             </Paragraph>
             <Link href="https://www.facebook.com/diogocezar" buttonCenter={true} target="_blank">
@@ -77,8 +77,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/linkedin.svg" />
-            <TitleItemColumn>LinkedIn</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">LinkedIn</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               You can found here some professional description of mine.
             </Paragraph>
             <Link
@@ -95,8 +95,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/skype.svg" />
-            <TitleItemColumn>Skype</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">Skype</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               You can call me at Skype too.
             </Paragraph>
             <Link href="skype:diogoctb?call" buttonCenter={true}>
@@ -109,8 +109,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/flickr.svg" />
-            <TitleItemColumn>Flickr</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">Flickr</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               Where you can find some public photos.
             </Paragraph>
             <Link
@@ -127,8 +127,8 @@ const SocialNetworks = () => (
         <Col4>
           <WrapperCol>
             <ImageItemColumn src="/assets/images/social-networks/youtube.svg" />
-            <TitleItemColumn>Youtube</TitleItemColumn>
-            <Paragraph size="medium" bottom="1rem" padding="0 10%" minheight="85px">
+            <TitleItemColumn color="orange">Youtube</TitleItemColumn>
+            <Paragraph size="medium" bottom="0" padding="0 10%" minheight="85px" align="center">
               Where i found some time, i publish on an educational channel on YouTube.
             </Paragraph>
             <Link
