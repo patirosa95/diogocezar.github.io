@@ -90,12 +90,18 @@ const StyledListContent = styled.p`
   }
 `
 
+const StyledListContentMain = styled(StyledListContent)`
+  position: relative;
+  float:left;
+  margin-top: 1.7rem;
+`
+
 const StyledListMenu = styled.div`
   font-family: 'AkzidenzGroteskBE';
   font-weight: bold;
   font-size: 2rem;
   text-transform: uppercase;
-  margin-bottom: 5px !important;
+  margin-bottom: 0x !important;
   text-decoration: none !important;
   color: var(--color-white);
   text-align: center;
@@ -113,6 +119,8 @@ const StyledListMenu = styled.div`
     line-height: 2.6rem;
     margin-bottom: 20px !important;
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
   @media ${devices.tablet} {
     font-size: 1.5rem;
@@ -122,16 +130,21 @@ const StyledListMenu = styled.div`
     position: relative;
     clear: both;
     float: left;
+    font-size: 1.7rem;
     padding: 7px 35px !important;
     background: var(--color-orange);
     transition: transform 0.15s;
     transform-origin: 50% 0;
     transform-style: preserve-3d;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
     border-radius: 50px;
     padding-top: 13px !important;
     @media ${devices.laptop} {
-      float: none;
+      font-size: 1.3rem;
+      width: 70%;
+    }
+    @media ${devices.tablet} {
+      width: 80%;
     }
   }
   span::before {
@@ -169,5 +182,5 @@ const StyledListMenu = styled.div`
 `
 
 export {
-  StyledListTitle, StyledListSubTitle, StyledListContent, StyledListMenu,
+  StyledListTitle, StyledListSubTitle, StyledListContent, StyledListMenu, StyledListContentMain,
 }

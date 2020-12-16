@@ -47,6 +47,11 @@ const StyledSection = styled.section`
   float: left;
   width: 100%;
   padding-bottom: var(--size-s4);
+  @media ${devices.laptop} {
+    &:last-child{
+      padding-bottom: ${({ isLast }) => (isLast ? 'var(--size-s1)' : 'var(--size-s4)')}!important;
+    }
+  }
 `
 
 const StyledWrapper = styled.div`

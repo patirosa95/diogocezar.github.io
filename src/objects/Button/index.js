@@ -1,12 +1,16 @@
 import React, { Component } from 'react'
 import { Link as LinkRoute } from 'react-router-dom'
 import debounce from 'lodash/debounce'
+import InlineSVG from 'svg-inline-react'
 import {
   StyledButton,
   StyledButtonList,
   StyledButtonBack,
   StyledButtonBackContainer,
 } from './styles'
+import {
+  arrow,
+} from '../../data'
 
 const Button = props => <StyledButton {...props}>{props.children}</StyledButton>
 
@@ -27,17 +31,17 @@ class ButtonBack extends Component {
 
   handleScroll = () => {
     this.setState({
-      display: window.scrollY > 500,
+      display: window.scrollY > 600,
     })
   }
 
   render() {
     return (
       <LinkRoute to="/">
-        <StyledButtonBackContainer>
-          <StyledButtonBack className={`display-${this.state.display}`}>
-            Back to Home
-          </StyledButtonBack>
+        <StyledButtonBackContainer className={`display-${this.state.display}`} color={this.props.color}>
+            <StyledButtonBack>
+              <InlineSVG src={arrow} />
+            </StyledButtonBack>
         </StyledButtonBackContainer>
       </LinkRoute>
     )

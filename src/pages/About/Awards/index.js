@@ -9,7 +9,7 @@ import { ListTitle, ListSubTitle, ListContent } from '../../../objects/ListConte
 import Link from '../../../objects/Link'
 
 const Awards = () => (
-  <Section>
+  <Section isLast="true">
     <Separator number="07" title="Awards" />
     <RightContent>
       <ListContainer>

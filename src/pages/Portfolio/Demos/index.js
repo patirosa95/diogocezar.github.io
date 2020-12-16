@@ -12,7 +12,7 @@ import { ButtonList } from '../../../objects/Button'
 import Link from '../../../objects/Link'
 
 const MainLectures = () => (
-  <Section>
+  <Section isLast="true">
     <Separator number="05" title="Online Demonstrations" type="orange" />
     <RightContent>
       <ListContainer>

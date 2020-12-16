@@ -11,7 +11,7 @@ import Button from '../../../objects/Button'
 import Link from '../../../objects/Link'
 
 const Monographies = () => (
-  <Section>
+  <Section isLast="true">
     <Separator number="07" title="Monographies" />
     <RightContent>
       <ListContainer>

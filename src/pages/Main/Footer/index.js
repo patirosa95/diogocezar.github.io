@@ -11,8 +11,8 @@ import {
   iconFooterLinkedIn,
 } from '../../../data'
 
-const FooterMain = () => (
-  <Footer>
+const FooterMain = ({ isMain }) => (
+  <Footer isMain={isMain}>
     <ColumnFooter>
       <TitleFooter align="left">SOURCE CODE</TitleFooter>
       <ContentFooter align="left">

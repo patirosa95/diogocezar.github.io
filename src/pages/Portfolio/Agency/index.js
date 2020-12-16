@@ -38,7 +38,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/hardera.svg" />
             <TitleItemColumn color="orange">Hardera</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
-              Developed all website for this wood company.
+              Developed website for this wood company.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -47,7 +47,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/kokar.svg" />
             <TitleItemColumn color="orange">Kokar</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
-              Developed all solution for this paint company.
+              Developed solution for this paint company.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -58,7 +58,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/angie.svg" />
             <TitleItemColumn color="orange">Angie</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
-              Developed all website for childs dental products.
+              Developed website for childs dental products.
             </Paragraph>
           </WrapperCol>
         </Col4>
@@ -67,7 +67,7 @@ const Agency = () => (
             <ImageItemColumn src="/assets/images/agency/boyband.svg" />
             <TitleItemColumn color="orange">Boyband</TitleItemColumn>
             <Paragraph size="medium" bottom="1rem" padding="0 10%" align="center">
-              Developed all website for this Agency.
+              Developed many website for this Agency.
             </Paragraph>
           </WrapperCol>
         </Col4>

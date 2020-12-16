@@ -13,6 +13,11 @@ const MainEventsParticipations = () => (
     <RightContent>
       <ListContainer>
         <ListItem color="purple" link={false}>
+          <ListTitle>ROCKETSEAT EXPERIENCE - 2019</ListTitle>
+          <ListContent>Hackaton Mentor / Neon Partner.</ListContent>
+          <ListContent>SÃO PAULO - SP</ListContent>
+        </ListItem>
+        <ListItem color="purple" link={false}>
           <ListTitle>BRASILJS - 2017</ListTitle>
           <ListContent>PORTO ALEGRE - RS</ListContent>
         </ListItem>

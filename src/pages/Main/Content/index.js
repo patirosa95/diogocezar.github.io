@@ -6,7 +6,7 @@ import { RightContent } from '../../../components/AlignContent'
 import { ListContainer, ListItem } from '../../../components/ListContainer'
 
 import Separator from '../../../objects/Separator'
-import { ListContent, ListMenu } from '../../../objects/ListContent'
+import { ListContentMain, ListMenu } from '../../../objects/ListContent'
 
 const Content = () => (
   <Section>
@@ -17,28 +17,36 @@ const Content = () => (
           <Link to="/about">
             <ListMenu>ABOUT ME</ListMenu>
           </Link>
-          <ListContent menuMain={true}>
+          <ListContentMain menuMain={true}>
             Detailed page about me, interests, education, professional, hobbies, skills and awards.
-          </ListContent>
+          </ListContentMain>
+        </ListItem>
+        <ListItem hoverColor="purple-dark">
+          <Link to="/blog/1">
+            <ListMenu>BLOG</ListMenu>
+          </Link>
+          <ListContentMain menuMain={true}>
+            Just old thinks (portuguese only).
+          </ListContentMain>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/portfolio">
             <ListMenu>PORTFÓLIO</ListMenu>
-            <ListContent menuMain={true}>List of my main jobs.</ListContent>
+            <ListContentMain menuMain={true}>List of my main jobs.</ListContentMain>
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/educational">
             <ListMenu>EDUCATIONAL</ListMenu>
-            <ListContent menuMain={true}>Where i spread the word of development.</ListContent>
+            <ListContentMain menuMain={true}>Where i spread the word of development.</ListContentMain>
           </Link>
         </ListItem>
         <ListItem hoverColor="purple-dark">
           <Link to="/keep-in-touch">
             <ListMenu>KEEP IN TOUCH</ListMenu>
-            <ListContent menuMain={true}>
+            <ListContentMain menuMain={true}>
               Let’s keep in touch thought social media networks.
-            </ListContent>
+            </ListContentMain>
           </Link>
         </ListItem>
       </ListContainer>

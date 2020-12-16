@@ -10,6 +10,8 @@ import ContactForm from './ContactForm'
 
 import { ButtonBack } from '../../objects/Button'
 
+import FooterMain from '../Main/Footer'
+
 class KeepInTouch extends Component {
   render() {
     return (
@@ -21,7 +23,8 @@ class KeepInTouch extends Component {
             <ContactForm />
           </Wrapper>
         </Page>
-        <ButtonBack />
+        <FooterMain />
+        <ButtonBack color="orange"/>
       </KeepInTouchAnimated>
     )
   }
