@@ -6,7 +6,6 @@ import Section from '../../components/Section'
 import LeftContent from '../../components/LeftContent'
 import RightContent from '../../components/RightContent'
 
-import ContentIndex from '../../objects/ContentIndex'
 import Title from '../../objects/Title'
 import SubTitle from '../../objects/SubTitle'
 import CircleImage from '../../objects/CircleImage'
@@ -17,28 +16,26 @@ class Main extends Component {
   render() {
     return (
       <Wrapper>
-        <Section>
-          <ContentIndex number="01" title="Introduction" />
+        <Section number="01" title="Introduction">
+          {/* <ContentIndex number="01" title="Introduction" /> */}
           <LeftContent>
             <CircleImage />
           </LeftContent>
           <RightContent>
-            <Title type="main">Diogo Cezar is a Sênior FullStack Web Developer</Title>
-            <SubTitle type="main">Worked with Brazilian Big Players</SubTitle>
+            <Title type="main">Patrícia Rosa</Title>
+            <SubTitle type="main">Web and RPA developer, technology lover</SubTitle>
             <QuotedParagraph first="Biography">
-              “I’m just a guy that knows that knows nothing. And it’s exactly what makes me moving
-              on. As teacher, talker, developer and technology enthusiastic, I am always searching
-              for new challenges.”
+              .” For me, learnin is constant, and knowledge is infinite. Always looking for self-knowledge and my best version.
             </QuotedParagraph>
             <Button>Read More</Button>
             <Button>Download Resume</Button>
           </RightContent>
         </Section>
-        <Section>
-          <ContentIndex number="02" title="Content" />
+        <Section number="02" title="Content">
+          {/* <ContentIndex number="02" title="Content" /> */}
         </Section>
-        <Section>
-          <ContentIndex number="03" title="Conclusion" />
+        <Section  number="03" title="Conclusion">
+          {/* <ContentIndex number="03" title="Conclusion" /> */}
         </Section>
       </Wrapper>
     )
